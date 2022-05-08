@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6789 \
-    fstab.mt6789.ramdisk \
+    fstab.mt6789.vendor_ramdisk \
     init.cgroup.rc \
     init.connectivity.rc \
     init.modem.rc \
