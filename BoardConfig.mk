@@ -80,6 +80,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xelex/mt6789
 TARGET_KERNEL_CONFIG := gki_defconfig mgk.config entry_level.config q20_v12_factory.config
+TARGET_KERNEL_CLANG_VERSION := r416183b
+TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
 
 # Kernel Modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/kernel/modules.load.ramdisk))
