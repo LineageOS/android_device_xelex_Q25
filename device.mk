@@ -160,6 +160,7 @@ $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayQ25 \
     FrameworksResOverlayQ25 \
+    SystemUIOverlayQ25 \
     LineageSDKResCommon
 
 DEVICE_PACKAGE_OVERLAYS += \
