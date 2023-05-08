@@ -1,3 +1,6 @@
+# Display
+sys.brightness.disable_gamma_conversion=true
+
 # FOTA
 ro.fota.version=Q25_26.03.2026
 
