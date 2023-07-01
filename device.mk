@@ -14,6 +14,9 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 
