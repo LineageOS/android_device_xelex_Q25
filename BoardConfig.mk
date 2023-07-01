@@ -51,6 +51,9 @@ BOARD_MKBOOTIMG_ARGS += --board ""
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/xelex/mt6789
+TARGET_KERNEL_CONFIG := gki_defconfig mgk.config entry_level.config q20_v12_factory.config
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
