@@ -21,9 +21,15 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # A/B
+AB_OTA_UPDATER := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
+    system \
+    product \
+    vendor \
     vbmeta
 
 # Bootloader
