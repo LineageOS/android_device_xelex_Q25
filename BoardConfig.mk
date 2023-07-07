@@ -85,6 +85,7 @@ TARGET_BOARD_PLATFORM := mt6789
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6789
+TARGET_USERIMAGES_USE_F2FS := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
