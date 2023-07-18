@@ -62,6 +62,9 @@ PRODUCT_PACKAGES += \
     init.stnfc.rc \
     ueventd.mt6789.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6789.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 
