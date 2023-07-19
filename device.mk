@@ -105,6 +105,14 @@ PRODUCT_PACKAGES += \
     mediaswcodec.policy
 
 # Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayQ25 \
+    LineageSDKResCommon \
+    WifiResOverlayQ25
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Permissions
