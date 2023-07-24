@@ -94,6 +94,15 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# IMS
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Q25_keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Q25_keyboard.idc \
@@ -118,6 +127,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworksResOverlayQ25 \
     LineageSDKResCommon \
+    TelephonyOverlayQ25 \
     WifiResOverlayQ25
 
 DEVICE_PACKAGE_OVERLAYS += \
