@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayQ25 \
     WifiResOverlayQ25 \
     TelephonyOverlayQ25 \
-    TetheringResOverlayQ25
+    TetheringResOverlayQ25 \
+    CarrierConfigOverlayQ25
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
