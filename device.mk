@@ -121,6 +121,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlayQ25 \
     FrameworksResOverlayQ25 \
     LineageSDKResCommon \
     TelephonyOverlayQ25 \
