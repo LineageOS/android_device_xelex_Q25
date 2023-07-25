@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlayQ25 \
     FrameworksResOverlayQ25 \
     TelephonyOverlayQ25 \
     TetheringResOverlayQ25 \
