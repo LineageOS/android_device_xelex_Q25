@@ -59,6 +59,11 @@
          that can be set by the user. -->
     <item name="config_screenBrightnessDimFloat" format="float" type="dimen">8.54597E-4</item>
 
+    <string-array name="config_locationExtraPackageNames">
+        <!-- ImsService -->
+        <item>com.mediatek.ims</item>
+    </string-array>
+
     <!-- If true, the doze component is not started until after the screen has been
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
