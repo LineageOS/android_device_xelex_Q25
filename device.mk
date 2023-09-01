@@ -123,6 +123,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworksResOverlayQ25 \
     TelephonyOverlayQ25 \
+    TetheringResOverlayQ25 \
     WifiResOverlayQ25
 
 DEVICE_PACKAGE_OVERLAYS += \
