@@ -133,5 +133,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/mediatek
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.mediatek
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xelex/Q25/Q25-vendor.mk)
