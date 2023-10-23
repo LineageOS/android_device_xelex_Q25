@@ -31,6 +31,8 @@ AB_OTA_PARTITIONS += \
     system_ext \
     product \
     vendor \
+    vendor_dlkm \
+    odm_dlkm \
     vbmeta \
     vbmeta_system \
     vbmeta_vendor
@@ -90,17 +92,21 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Partitions (Dynamic)
 BOARD_SUPER_PARTITION_GROUPS := mediatek_dynamic_partitions
-BOARD_MEDIATEK_DYNAMIC_PARTITIONS_PARTITION_LIST := product system system_ext vendor
+BOARD_MEDIATEK_DYNAMIC_PARTITIONS_PARTITION_LIST := odm_dlkm product system system_ext vendor vendor_dlkm
 BOARD_MEDIATEK_DYNAMIC_PARTITIONS_SIZE := $(shell echo $$(($(BOARD_SUPER_PARTITION_SIZE) / 2 - 4194304))) # (BOARD_SUPER_PARTITION_SIZE / 2 - "reasonable overhead of 4 MiB" 4194304)
 
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_ODM_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
 
 TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
+TARGET_COPY_OUT_ODM_DLKM := odm_dlkm
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6789
