@@ -145,6 +145,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # SEPolicy
+include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # SPL
