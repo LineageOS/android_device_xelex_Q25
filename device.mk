@@ -203,6 +203,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
+    libmtkperf_client_vendor \
+    libmtkperf_client \
     vendor.mediatek.hardware.mtkpower@1.2-service.stub
 
 # Rootdir
@@ -236,7 +238,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
-    hardware/mediatek
+    hardware/mediatek \
+    hardware/mediatek/libmtkperf_client
 
 # USB
 PRODUCT_PACKAGES += \
