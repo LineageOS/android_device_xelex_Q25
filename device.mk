@@ -199,6 +199,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
+    libmtkperf_client_vendor \
+    libmtkperf_client \
     vendor.mediatek.hardware.mtkpower@1.2-service.stub
 
 # Rootdir
