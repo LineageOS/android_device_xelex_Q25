@@ -122,7 +122,10 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libavservices_minijail_vendor.so', 'libavservices_minijail.so')
         .add_needed('libstagefright_foundation-v33.so'),
     (
-        'vendor/bin/hw/mtkfusionrild'
+        'vendor/bin/hw/mtkfusionrild',
+        'vendor/lib/libmtkcam_stdutils.so',
+        'vendor/lib64/libmtkcam_stdutils.so',
+        'vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so',
     ): blob_fixup()
         .add_needed('libutils-v32.so'),
 }  # fmt: skip
