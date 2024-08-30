@@ -160,6 +160,10 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/etc/init/init.volte_md_status.rc'
     ): blob_fixup()
         .binary_regex_replace(b'system/vendor', b'vendor'),
+    (
+        'vendor/etc/sensors/hals.conf'
+    ): blob_fixup()
+        .regex_replace('android.hardware.sensors@2.X-subhal-mediatek.so', 'android.hardware.sensors@2.0-subhal-impl-1.0.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
