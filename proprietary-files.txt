@@ -1,5 +1,8 @@
 # All unpinned blobs below are extracted from Xelex/Xelex10_Ultra/Xelex10_Ultra:14/20240427/UP1v:user/release-keys
 
+# Current blobs with ELF checks disabled:
+# libHEVCdec_sa.ca7.android.so, libh264dec_sa.ca7.so, libh264dec_sd.ca7.so, libh264dec_se.ca7.so, libh264enc_sa.ca7.so, libhevce_sb.ca7.android.so, libmp4enc_sa.ca7.so, libmp4enc_xa.ca7.so, libthha.so, libvcodec_oal.so, ibvp8dec_sa.ca7.so, libvp8enc_sa.ca7.so, libvp9dec_sa.ca7.so, libhevce_sb.ca7.android.so, libthha.so, libvcodec_oal.so depend on intrinsic symbols which changed namespaces (__aeabi_idiv, __aeabi_idivmod, __aeabi_uidiv, __aeabi_uidivmod) which are difficult to shim (TODO)
+
 # AEE
 vendor/lib/libaedv.so
 
@@ -943,7 +946,7 @@ vendor/lib/AVCSecureVdecCA.so
 vendor/lib/HEVCSecureVdecCA.so
 vendor/lib/VP9SecureVdecCA.so
 vendor/lib/libAVCSecureVencCA.so
-vendor/lib/libHEVCdec_sa.ca7.android.so
+vendor/lib/libHEVCdec_sa.ca7.android.so;DISABLE_CHECKELF
 vendor/lib/libJpgEncPipe.so
 vendor/lib/libMtkOmxAdpcmDec.so
 vendor/lib/libMtkOmxAlacDec.so
@@ -960,17 +963,17 @@ vendor/lib/libcodec2_vpp_rs_plugin.so
 vendor/lib/libdynamiclog.so
 vendor/lib/libformatter.so
 vendor/lib/libh264dec_customize.so
-vendor/lib/libh264dec_sa.ca7.so
-vendor/lib/libh264dec_sd.ca7.so
-vendor/lib/libh264dec_se.ca7.so
-vendor/lib/libh264enc_sa.ca7.so
-vendor/lib/libhevce_sb.ca7.android.so
+vendor/lib/libh264dec_sa.ca7.so;DISABLE_CHECKELF
+vendor/lib/libh264dec_sd.ca7.so;DISABLE_CHECKELF
+vendor/lib/libh264dec_se.ca7.so;DISABLE_CHECKELF
+vendor/lib/libh264enc_sa.ca7.so;DISABLE_CHECKELF
+vendor/lib/libhevce_sb.ca7.android.so;DISABLE_CHECKELF
 vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
-vendor/lib/libmp4enc_sa.ca7.so
-vendor/lib/libmp4enc_xa.ca7.so
+vendor/lib/libmp4enc_sa.ca7.so;DISABLE_CHECKELF
+vendor/lib/libmp4enc_xa.ca7.so;DISABLE_CHECKELF
 vendor/lib/libmtkperf_client_vendor.so
 vendor/lib/libmvpu_cic_ci_compiler.so
 vendor/lib/libmvpu_clc_cl_compiler.so
@@ -988,13 +991,13 @@ vendor/lib/libmvpu_runtime_pub.so
 vendor/lib/libmvpuop_mtk_cv.so
 vendor/lib/libmvpuop_mtk_nn.so
 vendor/lib/libstagefrighthw.so
-vendor/lib/libthha.so
-vendor/lib/libvcodec_oal.so
+vendor/lib/libthha.so;DISABLE_CHECKELF
+vendor/lib/libvcodec_oal.so;DISABLE_CHECKELF
 vendor/lib/libvcodec_utility_plat.mt6789.so
 vendor/lib/libvcodecdrv_header_stub.so
-vendor/lib/libvp8dec_sa.ca7.so
-vendor/lib/libvp8enc_sa.ca7.so
-vendor/lib/libvp9dec_sa.ca7.so
+vendor/lib/libvp8dec_sa.ca7.so;DISABLE_CHECKELF
+vendor/lib/libvp8enc_sa.ca7.so;DISABLE_CHECKELF
+vendor/lib/libvp9dec_sa.ca7.so;DISABLE_CHECKELF
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
 vendor/lib/libwvhidl.so
@@ -1017,7 +1020,7 @@ vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libdynamiclog.so
 vendor/lib64/libformatter.so
-vendor/lib64/libhevce_sb.ca7.android.so
+vendor/lib64/libhevce_sb.ca7.android.so;DISABLE_CHECKELF
 vendor/lib64/libmvpu_cic_ci_compiler.so
 vendor/lib64/libmvpu_clc_cl_compiler.so
 vendor/lib64/libmvpu_clc_mvpu_debuginfo.so
@@ -1034,8 +1037,8 @@ vendor/lib64/libmvpu_runtime_pub.so
 vendor/lib64/libmvpuop_mtk_cv.so
 vendor/lib64/libmvpuop_mtk_nn.so
 vendor/lib64/libstagefrighthw.so
-vendor/lib64/libthha.so
-vendor/lib64/libvcodec_oal.so
+vendor/lib64/libthha.so;DISABLE_CHECKELF
+vendor/lib64/libvcodec_oal.so;DISABLE_CHECKELF
 vendor/lib64/libvcodecdrv_header_stub.so
 vendor/lib64/libvpu.so
 vendor/lib64/libvpu5.so
