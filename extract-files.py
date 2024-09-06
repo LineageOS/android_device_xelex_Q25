@@ -114,6 +114,11 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/bin/teed'
     ): blob_fixup()
         .binary_regex_replace(b'ro.product.model', b'ro.build.product'),
+    (
+        'vendor/bin/hw/android.hardware.media.c2@1.2-mediatek',
+        'vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b',
+    ): blob_fixup()
+        .replace_needed('libavservices_minijail_vendor.so', 'libavservices_minijail.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
