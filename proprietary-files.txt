@@ -7,8 +7,6 @@
 vendor/lib/libaedv.so
 
 # Audio
-vendor/bin/atcid
-vendor/bin/audiocmdservice_atci
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
 vendor/etc/audio_param/BtInfo_AudioParam.xml
@@ -128,7 +126,6 @@ vendor/etc/audio_policy_volumes.xml
 vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_rv.xml
 vendor/etc/default_volume_tables.xml
-vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
 vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
 vendor/etc/vintf/manifest/manifest_apuware_utils.xml
@@ -205,7 +202,6 @@ vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
 vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
-vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 
