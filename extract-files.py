@@ -113,6 +113,10 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('libavservices_minijail_vendor.so', 'libavservices_minijail.so')
         .add_needed('libstagefright_foundation-v33.so'),
+    (
+        'vendor/bin/hw/mtkfusionrild'
+    ): blob_fixup()
+        .add_needed('libutils-v32.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
