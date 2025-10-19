@@ -134,6 +134,10 @@ blob_fixups: blob_fixups_user_type = {
         'system_ext/lib64/libimsma.so',
     ): blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
+    (
+        'system_ext/lib64/libsource.so',
+    ): blob_fixup()
+        .add_needed('libui_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
