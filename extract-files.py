@@ -17,9 +17,7 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
-namespace_imports = [
-    'device/xelex/Q25',
-]
+namespace_imports = ['device/xelex/Q25', 'hardware/mediatek']
 
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
