@@ -192,5 +192,15 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi-service \
+    hostapd \
+    libwifi-hal-wrapper \
+    wpa_supplicant
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xelex/Q25/Q25-vendor.mk)
