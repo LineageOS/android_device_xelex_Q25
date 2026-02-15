@@ -52,10 +52,10 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .add_needed('libprocessgroup_shim.so'),
     (
-        'vendor/lib64/mt6789/lib3a.flash.so',
-        'vendor/lib64/mt6789/lib3a.ae.stat.so',
-        'vendor/lib64/mt6789/lib3a.sensors.color.so',
-        'vendor/lib64/mt6789/lib3a.sensors.flicker.so',
+        'vendor/lib64/lib3a.flash.so',
+        'vendor/lib64/lib3a.ae.stat.so',
+        'vendor/lib64/lib3a.sensors.color.so',
+        'vendor/lib64/lib3a.sensors.flicker.so',
     ): blob_fixup()
         .add_needed('liblog.so'),
     (
@@ -64,17 +64,17 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .add_needed('libteec.so'),
     (
-        'vendor/lib64/mt6789/libcam.utils.sensorprovider.so',
+        'vendor/lib64/libcam.utils.sensorprovider.so',
         'vendor/bin/mnld'
     ): blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
     (
-        'vendor/lib64/mt6789/libmnl.so'
+        'vendor/lib64/libmnl.so'
     ): blob_fixup()
         .add_needed('libcutils.so'),
     (
-        'vendor/lib/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so',
-        'vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so'
+        'vendor/lib/libneuralnetworks_sl_driver_mtk_prebuilt.so',
+        'vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so'
     ): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
