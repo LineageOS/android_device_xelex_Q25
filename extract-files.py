@@ -87,7 +87,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbase_shim.so'),
     (
         'vendor/lib/libspeech_enh_lib.so',
-        'vendor/lib64/libspeech_enh_lib.so'
+        'vendor/lib64/libspeech_enh_lib.so',
+        'vendor/lib64/hw/sensors.mt6789.so',
     ): blob_fixup()
         .fix_soname(),
     (
