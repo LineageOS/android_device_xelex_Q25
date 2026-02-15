@@ -19,6 +19,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/xelex/Q25',
+    'hardware/mediatek',
 ]
 
 
