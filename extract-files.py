@@ -88,6 +88,7 @@ blob_fixups: blob_fixups_user_type = {
     (
         'vendor/lib/libspeech_enh_lib.so',
         'vendor/lib64/libspeech_enh_lib.so',
+        'vendor/lib64/libwifi-hal-mtk.so',
         'vendor/lib64/hw/sensors.mt6789.so',
     ): blob_fixup()
         .fix_soname(),
