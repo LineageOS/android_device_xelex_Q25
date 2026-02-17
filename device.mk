@@ -94,6 +94,12 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# Media
+PRODUCT_PACKAGES += \
+    mediacodec.policy \
+    mediaextractor.policy \
+    mediaswcodec.policy
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
