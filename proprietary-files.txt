@@ -876,6 +876,8 @@ vendor/etc/init/v3avpud.rc
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy
 vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
+vendor/etc/media_codecs_c2.xml
+vendor/etc/media_codecs_performance.xml
 vendor/etc/mtk_omx_core.cfg
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
