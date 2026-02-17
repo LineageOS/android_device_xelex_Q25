@@ -94,6 +94,12 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# Media
+PRODUCT_PACKAGES += \
+    mediacodec.policy \
+    mediaextractor.policy \
+    mediaswcodec.policy
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st
