@@ -94,6 +94,10 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libspeech_enh_lib.so',
         'vendor/lib64/libwifi-hal-mtk.so',
         'vendor/lib64/hw/sensors.mt6789.so',
+        'vendor/lib/hw/audio.primary.mt6789.so',
+        'vendor/lib64/hw/audio.primary.mt6789.so',
+        'vendor/lib/hw/audio.r_submix.mt6789.so',
+        'vendor/lib64/hw/audio.r_submix.mt6789.so',
     ): blob_fixup()
         .fix_soname(),
     (

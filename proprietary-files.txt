@@ -128,7 +128,7 @@ vendor/etc/aurisys_config_rv.xml
 vendor/etc/default_volume_tables.xml
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib/hw/audio.primary.mediatek.so
+vendor/lib/hw/audio.primary.mediatek.so:vendor/lib/hw/audio.primary.mt6789.so
 vendor/lib/hw/sound_trigger.primary.default.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/mt6789/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
