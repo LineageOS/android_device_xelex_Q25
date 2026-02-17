@@ -651,7 +651,6 @@ vendor/lib64/meta_wifi_data.so
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
-vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so:vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/mt6789/libaiselector.so:vendor/lib/libaiselector.so
