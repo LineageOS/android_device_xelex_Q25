@@ -5,6 +5,7 @@
 #
 
 from extract_utils.fixups_blob import (
+    blob_fixup,
     blob_fixups_user_type,
 )
 from extract_utils.fixups_lib import (
@@ -32,6 +33,69 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so',
+        'vendor/bin/hw/android.hardware.gnss-service.mediatek',
+    ): blob_fixup()
+        .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
+    (
+        'vendor/lib64/android.hardware.power-service-mediatek.so'
+    ): blob_fixup()
+        .replace_needed('android.hardware.power-V2-ndk_platform.so', 'android.hardware.power-V2-ndk.so'),
+    (
+        'vendor/lib64/hw/hwcomposer.mtk_common.so'
+    ): blob_fixup()
+        .add_needed('libprocessgroup_shim.so'),
+    (
+        'vendor/lib64/lib3a.flash.so',
+        'vendor/lib64/lib3a.ae.stat.so',
+        'vendor/lib64/lib3a.sensors.color.so',
+        'vendor/lib64/lib3a.sensors.flicker.so',
+    ): blob_fixup()
+        .add_needed('liblog.so'),
+    (
+        'vendor/lib/libGsFace_ca.so',
+        'vendor/lib64/libGsFace_ca.so'
+    ): blob_fixup()
+        .add_needed('libteec.so'),
+    (
+        'vendor/lib64/libcam.utils.sensorprovider.so',
+        'vendor/bin/mnld'
+    ): blob_fixup()
+        .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
+    (
+        'vendor/lib64/libmnl.so'
+    ): blob_fixup()
+        .add_needed('libcutils.so'),
+    (
+        'vendor/lib/libneuralnetworks_sl_driver_mtk_prebuilt.so',
+        'vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so'
+    ): blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock')
+        .clear_symbol_version('AHardwareBuffer_createFromHandle')
+        .clear_symbol_version('AHardwareBuffer_getNativeHandle'),
+    (
+        'vendor/lib/libnvram.so',
+        'vendor/lib64/libnvram.so',
+        'vendor/lib/libsysenv.so',
+        'vendor/lib64/libsysenv.so',
+        'vendor/bin/STFlashTool',
+        'vendor/bin/nfcstackp-vendor',
+    ): blob_fixup()
+        .add_needed('libbase_shim.so'),
+    (
+        'vendor/lib/libspeech_enh_lib.so',
+        'vendor/lib64/libspeech_enh_lib.so'
+    ): blob_fixup()
+        .fix_soname(),
+    (
+        'vendor/bin/hw/android.hardware.memtrack-service.mediatek'
+    ): blob_fixup()
+        .replace_needed('android.hardware.memtrack-V1-ndk_platform.so', 'android.hardware.memtrack-V1-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
