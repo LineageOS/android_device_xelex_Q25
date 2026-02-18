@@ -202,6 +202,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.legacy
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
