@@ -117,6 +117,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/Q25_keyboard.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Q25_keyboard.kl \
     $(LOCAL_PATH)/configs/keychars/Q25_keyboard.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Q25_keyboard.kcm
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.lineage
+
 # Media
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
