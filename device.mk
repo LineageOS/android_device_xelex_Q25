@@ -104,6 +104,8 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek-recovery
 
 # IMS
+$(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
+
 PRODUCT_BOOT_JARS += \
     mediatek-common \
     mediatek-framework \
