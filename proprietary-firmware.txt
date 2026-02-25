@@ -1,0 +1,16 @@
+# All firmware image below are extracted from the release mentioned in proprietary-files.txt
+
+#connsys_bt.img;AB
+#connsys_gnss.img;AB
+#connsys_wifi.img;AB
+dpm.img;AB
+gz.img;AB
+lk.img;AB
+mcupm.img;AB
+md1img.img;AB
+pi_img.img;AB
+scp.img;AB
+spmfw.img;AB
+sspm.img;AB
+tee.img;AB
+
