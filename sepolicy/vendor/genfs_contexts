@@ -1,0 +1,3 @@
+# Wakeup
+genfscon sysfs /devices/platform/soc/11017000.i2c/i2c-5/5-0065/power_supply/upm6722-standalone/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11017000.i2c/i2c-5/5-006b/power_supply/upm6922-charger/wakeup       u:object_r:sysfs_wakeup:s0
