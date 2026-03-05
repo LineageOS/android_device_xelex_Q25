@@ -4,14 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-from extract_utils.file import File
 from extract_utils.fixups_blob import (
-    BlobFixupCtx,
     blob_fixup,
     blob_fixups_user_type,
 )
 from extract_utils.fixups_lib import (
-    lib_fixup_remove,
     lib_fixups,
     lib_fixups_user_type,
 )
@@ -20,10 +17,7 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
-namespace_imports = [
-    'device/xelex/Q25',
-    'hardware/mediatek'
-]
+namespace_imports = ['device/xelex/Q25', 'hardware/mediatek']
 
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
