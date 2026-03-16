@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14b151be_b22882ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-16T23:05:48Z",
+      "side": 1,
+      "message": "powerhint still needs some work, it was kanged from yunluo with some changes on top",
+      "revId": "1d885aa2ba7a1b984b953e7f3f514d8778582049",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
