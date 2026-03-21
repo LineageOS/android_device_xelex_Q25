@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "672387c3_3911f500",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:02:42Z",
+      "side": 1,
+      "message": "does this actually work here?",
+      "range": {
+        "startLine": 704,
+        "startChar": 0,
+        "endLine": 704,
+        "endChar": 31
+      },
+      "revId": "58087003174d35ee838c2b6db90ce1cb05f08183",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08662f23_1ac2c561",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1196,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:02:42Z",
+      "side": 1,
+      "message": "if not needed remove",
+      "range": {
+        "startLine": 1196,
+        "startChar": 0,
+        "endLine": 1196,
+        "endChar": 28
+      },
+      "revId": "58087003174d35ee838c2b6db90ce1cb05f08183",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
