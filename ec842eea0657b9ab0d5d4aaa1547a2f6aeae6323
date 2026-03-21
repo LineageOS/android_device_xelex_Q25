@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d87d7182_c5a13c07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:12:26Z",
+      "side": 1,
+      "message": "Also, why? commit msg at least",
+      "revId": "ec842eea0657b9ab0d5d4aaa1547a2f6aeae6323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10e0a4ed_8985ae6c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:12:26Z",
+      "side": 1,
+      "message": "just remove?",
+      "range": {
+        "startLine": 649,
+        "startChar": 0,
+        "endLine": 649,
+        "endChar": 59
+      },
+      "revId": "ec842eea0657b9ab0d5d4aaa1547a2f6aeae6323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
