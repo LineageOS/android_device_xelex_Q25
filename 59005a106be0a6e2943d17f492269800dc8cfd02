@@ -56,6 +56,30 @@
       },
       "revId": "59005a106be0a6e2943d17f492269800dc8cfd02",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "182d7c03_82ee96b5",
+        "filename": "overlay/SystemUIOverlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-21T22:52:17Z",
+      "side": 1,
+      "message": "will drop SystemUIOverlayQ25, there\u0027s nothing else there or added on later",
+      "parentUuid": "3529a66a_372aa605",
+      "range": {
+        "startLine": 13,
+        "startChar": 22,
+        "endLine": 13,
+        "endChar": 23
+      },
+      "revId": "59005a106be0a6e2943d17f492269800dc8cfd02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
