@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dc007e4_527511cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T05:58:55Z",
+      "side": 1,
+      "message": "props in the file are not sorted alphabetically under their headers - bit scattershot atm.",
+      "revId": "08f54f6ec023f5bee78ad8cfac8d3edf8c4d7266",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1ecff5d_e9aaaa34",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T05:58:55Z",
+      "side": 1,
+      "message": "do we tho? on lineage? I think nah",
+      "range": {
+        "startLine": 131,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 30
+      },
+      "revId": "08f54f6ec023f5bee78ad8cfac8d3edf8c4d7266",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23ecc7da_ce6e2a08",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T05:58:55Z",
+      "side": 1,
+      "message": "spot check these against modern platforms - even pixels don\u0027t dick with these nowadays.",
+      "range": {
+        "startLine": 145,
+        "startChar": 0,
+        "endLine": 145,
+        "endChar": 5
+      },
+      "revId": "08f54f6ec023f5bee78ad8cfac8d3edf8c4d7266",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87a115f0_e4723da9",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T05:58:55Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 165,
+        "startChar": 34,
+        "endLine": 165,
+        "endChar": 36
+      },
+      "revId": "08f54f6ec023f5bee78ad8cfac8d3edf8c4d7266",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
