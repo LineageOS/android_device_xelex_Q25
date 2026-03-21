@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79da14be_4497d6f7",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T05:56:23Z",
+      "side": 1,
+      "message": "weird change.",
+      "range": {
+        "startLine": 31,
+        "startChar": 18,
+        "endLine": 31,
+        "endChar": 21
+      },
+      "revId": "f081362957c79c4c1cdc55794eeba5eb6a6ee158",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
