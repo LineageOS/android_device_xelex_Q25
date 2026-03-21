@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ade88997_41363bec",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:11:34Z",
+      "side": 1,
+      "message": "again not a fan of these",
+      "range": {
+        "startLine": 203,
+        "startChar": 0,
+        "endLine": 203,
+        "endChar": 99
+      },
+      "revId": "aa109742cfd3aa58801bc087326a681cf8e8debe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
