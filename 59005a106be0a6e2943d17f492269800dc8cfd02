@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6db4ece9_da58be77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:15:10Z",
+      "side": 1,
+      "message": "run beautify script pls",
+      "revId": "59005a106be0a6e2943d17f492269800dc8cfd02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ebf0c2b_461f5ea3",
+        "filename": "overlay/FrameworksResOverlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:15:10Z",
+      "side": 1,
+      "message": "remove newline",
+      "revId": "59005a106be0a6e2943d17f492269800dc8cfd02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3529a66a_372aa605",
+        "filename": "overlay/SystemUIOverlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:15:10Z",
+      "side": 1,
+      "message": "soooo, remove file?",
+      "range": {
+        "startLine": 13,
+        "startChar": 22,
+        "endLine": 13,
+        "endChar": 23
+      },
+      "revId": "59005a106be0a6e2943d17f492269800dc8cfd02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
