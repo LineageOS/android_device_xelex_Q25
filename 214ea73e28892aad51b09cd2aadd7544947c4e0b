@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ed6cec2_0fd804b2",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:26:12Z",
+      "side": 0,
+      "message": "why on this one?",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 21
+      },
+      "revId": "214ea73e28892aad51b09cd2aadd7544947c4e0b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
