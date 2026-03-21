@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93e1069c_c0194cc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:03:43Z",
+      "side": 1,
+      "message": "I\u0027d really like the symbols (I suspect all the same one(s)?) documented in header like other devices do. a todo list of sorts.",
+      "revId": "5a4fddabb337e84a730d0a97c8ef2f1145f1a2d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
