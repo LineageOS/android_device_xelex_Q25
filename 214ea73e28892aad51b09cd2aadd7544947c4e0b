@@ -46,6 +46,30 @@
       },
       "revId": "214ea73e28892aad51b09cd2aadd7544947c4e0b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e1190a5_6494343e",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T21:11:14Z",
+      "side": 0,
+      "message": "ah, ignore me then!",
+      "parentUuid": "6f896317_5838f856",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 21
+      },
+      "revId": "214ea73e28892aad51b09cd2aadd7544947c4e0b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
