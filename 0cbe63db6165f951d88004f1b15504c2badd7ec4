@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f254d59_b69d3e55",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T05:51:22Z",
+      "side": 1,
+      "message": "nit: not really tho, we _need_ the ext4 flag bc aosp build system nonsense but we only support F2FS in fstab of device... not opposed to adding ext4 as fallback but meh, reword of commit msg would be fine.",
+      "revId": "0cbe63db6165f951d88004f1b15504c2badd7ec4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
