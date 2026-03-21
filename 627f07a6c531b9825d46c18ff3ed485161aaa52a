@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cde2e1f_bbe78463",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:18:03Z",
+      "side": 1,
+      "message": "alphabetize?",
+      "range": {
+        "startLine": 135,
+        "startChar": 4,
+        "endLine": 135,
+        "endChar": 23
+      },
+      "revId": "627f07a6c531b9825d46c18ff3ed485161aaa52a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35362b00_2257dc38",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:18:03Z",
+      "side": 1,
+      "message": "format like the rest of things that are single lib (no ())",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 78
+      },
+      "revId": "627f07a6c531b9825d46c18ff3ed485161aaa52a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35009125_582e352f",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T06:18:03Z",
+      "side": 1,
+      "message": "system_ext.prop?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 5
+      },
+      "revId": "627f07a6c531b9825d46c18ff3ed485161aaa52a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
