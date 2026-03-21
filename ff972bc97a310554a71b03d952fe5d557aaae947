@@ -16,6 +16,24 @@
       "message": "curious, why legacy on 5.10?",
       "revId": "ff972bc97a310554a71b03d952fe5d557aaae947",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95e452ec_650dfe13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-21T22:37:58Z",
+      "side": 1,
+      "message": "Electi - \"we have a rotating mass style vibrator from 2010. theres nothing fancy going on with it lol\"",
+      "parentUuid": "b8257695_1836f774",
+      "revId": "ff972bc97a310554a71b03d952fe5d557aaae947",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
