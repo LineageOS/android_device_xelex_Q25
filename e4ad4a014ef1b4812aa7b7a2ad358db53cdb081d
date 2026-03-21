@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20d25916_50c08c18",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-21T05:53:33Z",
+      "side": 1,
+      "message": "not on lineage, if you want it in tree ifndef LINEAGE_BUILD guards but I\u0027d just kill it\n\nGoogle apps need to flash",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 80
+      },
+      "revId": "e4ad4a014ef1b4812aa7b7a2ad358db53cdb081d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
