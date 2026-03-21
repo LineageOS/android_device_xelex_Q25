@@ -22,6 +22,30 @@
       },
       "revId": "486e7e815d9645a64b6f18eac42b63c97754657b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae8e1366_26b056bf",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-21T20:58:35Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_xelex_Q25/+/477859/1",
+      "parentUuid": "af2892b1_c6687e31",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 33
+      },
+      "revId": "486e7e815d9645a64b6f18eac42b63c97754657b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
