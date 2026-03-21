@@ -45,6 +45,23 @@
       },
       "revId": "53fbdb7d4070bbbb720c92eac087bdb78873de4a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2574323c_152076e7",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-21T21:05:15Z",
+      "side": 1,
+      "message": "Guess we don\u0027t really need to set this?",
+      "revId": "53fbdb7d4070bbbb720c92eac087bdb78873de4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
