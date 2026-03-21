@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ebf18495_28a5107f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-21T22:09:35Z",
+      "side": 1,
+      "message": "should also format --dir-first",
+      "revId": "58087003174d35ee838c2b6db90ce1cb05f08183",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "672387c3_3911f500",
         "filename": "proprietary-files.txt",
         "patchSetId": 1
