@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bc63351_348580fe",
+        "filename": "proprietary-firmware.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:07:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f2ec91fa_dcf4546d",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 18
+      },
+      "revId": "90de1816539eafc2174a2215329c96827ce3134b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5ee55ed0_4e64a8cb",
