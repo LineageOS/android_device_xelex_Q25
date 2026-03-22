@@ -41,6 +41,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d279110b_6c59299a",
+        "filename": "rootdir/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:16:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13e9cead_63bf6550",
+      "range": {
+        "startLine": 2,
+        "startChar": 17,
+        "endLine": 2,
+        "endChar": 21
+      },
+      "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d6a0ee6e_aa69b7e0",
@@ -54,6 +78,24 @@
       "writtenOn": "2026-03-21T05:50:23Z",
       "side": 1,
       "message": "Good GOD pls clean this and make it look sane...",
+      "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c714b59e_d7e76d02",
+        "filename": "rootdir/etc/fstab.mt6789",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:16:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6a0ee6e_aa69b7e0",
       "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -75,6 +117,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "35c4c529_87e82dfb",
+        "filename": "rootdir/etc/init.modem.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:16:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "089c36cd_d22dc159",
+      "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "56bdd180_57d7a43a",
@@ -88,6 +148,30 @@
       "writtenOn": "2026-03-21T05:50:23Z",
       "side": 1,
       "message": "delete",
+      "range": {
+        "startLine": 324,
+        "startChar": 0,
+        "endLine": 324,
+        "endChar": 4
+      },
+      "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81e09070_46d38731",
+        "filename": "rootdir/etc/init.mt6789.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:16:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56bdd180_57d7a43a",
       "range": {
         "startLine": 324,
         "startChar": 0,
@@ -138,6 +222,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ddbfc52_bf014a62",
+        "filename": "rootdir/etc/init.project.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:16:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "089ab8be_436a0d99",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 1
+      },
+      "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "26b05c83_a88f6698",
@@ -161,6 +269,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "937995db_9615c0df",
+        "filename": "rootdir/etc/init.project.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:16:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "26b05c83_a88f6698",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 1
+      },
+      "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eb908732_87cf9ec9",
@@ -174,6 +306,30 @@
       "writtenOn": "2026-03-21T05:50:23Z",
       "side": 1,
       "message": "delete",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 4
+      },
+      "revId": "3cdd295da8873f69bb40ea81dda565ccf53c45e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0dda460c_71bf37f6",
+        "filename": "rootdir/etc/init.project.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:16:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eb908732_87cf9ec9",
       "range": {
         "startLine": 65,
         "startChar": 0,
