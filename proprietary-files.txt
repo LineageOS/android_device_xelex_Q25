@@ -1507,7 +1507,7 @@ system_ext/lib64/libsource.so
 system_ext/lib64/libvcodec_cap.so
 system_ext/lib64/libvcodec_capenc.so
 system_ext/lib64/libvt_avsync.so
-system_ext/priv-app/ImsService/ImsService.apk
+system_ext/priv-app/ImsService/ImsService.apk|064acaad9dff7b8745c4283e0dd72c0bf5d9ea43
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
 
