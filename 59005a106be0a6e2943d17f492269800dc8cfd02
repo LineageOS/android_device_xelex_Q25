@@ -98,6 +98,30 @@
       },
       "revId": "59005a106be0a6e2943d17f492269800dc8cfd02",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0845840d_f980a51b",
+        "filename": "overlay/SystemUIOverlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:33:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "182d7c03_82ee96b5",
+      "range": {
+        "startLine": 13,
+        "startChar": 22,
+        "endLine": 13,
+        "endChar": 23
+      },
+      "revId": "59005a106be0a6e2943d17f492269800dc8cfd02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
