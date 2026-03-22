@@ -35,6 +35,10 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     (
+        'system_ext/priv-app/ImsService/ImsService.apk'
+    ): blob_fixup()
+        .apktool_patch('ims-patches'),
+    (
         'vendor/bin/hw/android.hardware.gnss-service.mediatek',
         'vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so',
     ): blob_fixup()
