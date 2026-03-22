@@ -22,6 +22,30 @@
       },
       "revId": "b07c469c9a5bb0b440c7ef2d028d69c7dd9bf131",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ed83377_80551be3",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:28:58Z",
+      "side": 1,
+      "message": "aapt stuff seems fine.",
+      "parentUuid": "a24651e1_ffd489c4",
+      "range": {
+        "startLine": 71,
+        "startChar": 25,
+        "endLine": 71,
+        "endChar": 28
+      },
+      "revId": "b07c469c9a5bb0b440c7ef2d028d69c7dd9bf131",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
