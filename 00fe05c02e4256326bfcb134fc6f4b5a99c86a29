@@ -16,6 +16,24 @@
       "message": "tf?",
       "revId": "00fe05c02e4256326bfcb134fc6f4b5a99c86a29",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c5d038d_50c00baa",
+        "filename": "overlay/CarrierConfigOverlay/res/xml/vendor.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:22:54Z",
+      "side": 1,
+      "message": "script generated I guess...",
+      "parentUuid": "b12ffbd7_971fe7e0",
+      "revId": "00fe05c02e4256326bfcb134fc6f4b5a99c86a29",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
