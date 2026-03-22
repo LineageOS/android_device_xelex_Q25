@@ -701,6 +701,15 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
+# Face
+vendor/lib/libGsFace_ca.so
+vendor/lib/libcv_faceid.so
+vendor/lib/libstfaceunlock.so
+vendor/lib64/hw/face.default.so
+vendor/lib64/libGsFace_ca.so
+vendor/lib64/libcv_faceid.so
+vendor/lib64/libstfaceunlock.so
+
 # Factory
 vendor/bin/pld
 vendor/lib/libminiui.so

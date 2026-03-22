@@ -139,6 +139,10 @@ ro.opengles.version=196610
 ro.vendor.mtk_backlight_hwc_support=0
 ro.vendor.mtk_ovl_bringup=0
 
+# Face
+ro.vendor.faceunlock.support=1
+ro.vendor.faceunlock.tee=trustkernel
+
 # FRP
 ro.frp.pst=/dev/block/by-name/frp
 
