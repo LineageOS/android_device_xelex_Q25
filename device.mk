@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayQ25 \
+    LineageSDKResCommon \
     WifiResOverlayQ25
 
 DEVICE_PACKAGE_OVERLAYS += \
