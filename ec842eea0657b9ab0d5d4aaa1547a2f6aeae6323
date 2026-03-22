@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e34e4e4e_d02d8fdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:21:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d87d7182_c5a13c07",
+      "revId": "ec842eea0657b9ab0d5d4aaa1547a2f6aeae6323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "10e0a4ed_8985ae6c",
@@ -31,6 +49,30 @@
       "writtenOn": "2026-03-21T06:12:26Z",
       "side": 1,
       "message": "just remove?",
+      "range": {
+        "startLine": 649,
+        "startChar": 0,
+        "endLine": 649,
+        "endChar": 59
+      },
+      "revId": "ec842eea0657b9ab0d5d4aaa1547a2f6aeae6323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cc9e74c_5d51e62c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-22T00:21:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "10e0a4ed_8985ae6c",
       "range": {
         "startLine": 649,
         "startChar": 0,
