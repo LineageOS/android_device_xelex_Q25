@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12bb034c_b521880d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 925,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-03-22T20:06:26Z",
+      "side": 0,
+      "message": "Aren\u0027t you able to use the 64bit service and get rid of 32bit, which would get rid of this commit?",
+      "revId": "e0f69e56538736a7d395575776084368ad84f909",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
