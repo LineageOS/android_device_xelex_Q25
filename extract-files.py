@@ -44,6 +44,11 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
     (
+        'vendor/bin/mnld',
+    ): blob_fixup()
+        .binary_regex_replace(b'ro.logsystem.usertype', b'ro.vendor.lgsys.utype')
+        .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
+    (
         'vendor/firmware/ocs72xxx_cf.bin'
     ): blob_fixup()
         .binary_regex_replace(b"\x5F\x00\x00\x00", b"\x40\x00\x00\x00")
@@ -76,7 +81,6 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .add_needed('libteec.so'),
     (
-        'vendor/bin/mnld',
         'vendor/lib64/libcam.utils.sensorprovider.so',
     ): blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
