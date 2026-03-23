@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e73b3e21_5e1e8330",
+        "filename": "ims-patches/0001-ImsService-Switch-to-shared-libs-to-mtk-frameworks.patch",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-03-23T08:41:07Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_xelex_Q25/blob/858664fe40907fba59cc2fc43e10f402fd68095a/device.mk#L107\n\nyou don\u0027t need that one",
+      "revId": "1043eea7ffa9ea476da8dec4635852d42bb86013",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ad5ccb5_bec34e86",
         "filename": "ims-patches/0003-ImsService-Remove-references-to-TelephonyMetrics.patch",
         "patchSetId": 6
