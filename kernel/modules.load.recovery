@@ -1,3 +1,4 @@
+mtk_touchscreen_hodafonehw.ko
 mkp.ko
 bootprof.ko
 dbgtop-drm.ko
