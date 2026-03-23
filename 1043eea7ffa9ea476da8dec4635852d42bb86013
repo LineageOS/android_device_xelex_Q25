@@ -54,6 +54,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1d3a877_74ecf7e4",
+        "filename": "ims-patches/0001-ImsService-Switch-to-shared-libs-to-mtk-frameworks.patch",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-23T23:50:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2dca65f8_a099cccb",
+      "revId": "1043eea7ffa9ea476da8dec4635852d42bb86013",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ad5ccb5_bec34e86",
@@ -67,6 +85,24 @@
       "writtenOn": "2026-03-23T06:05:43Z",
       "side": 1,
       "message": "That\u0027s ugly, can you try with 475395 ?",
+      "revId": "1043eea7ffa9ea476da8dec4635852d42bb86013",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92a8804e_64f75110",
+        "filename": "ims-patches/0003-ImsService-Remove-references-to-TelephonyMetrics.patch",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-23T23:50:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2ad5ccb5_bec34e86",
       "revId": "1043eea7ffa9ea476da8dec4635852d42bb86013",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
