@@ -16,6 +16,24 @@
       "message": "Dead flag",
       "revId": "0f143b027f65b87d41c61d3ef1f7ea3e4529f50e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e741ce5_eb30b4c6",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-23T23:48:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70a4e7a9_43523526",
+      "revId": "0f143b027f65b87d41c61d3ef1f7ea3e4529f50e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
