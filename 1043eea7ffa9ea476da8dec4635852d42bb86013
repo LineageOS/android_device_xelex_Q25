@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d59e1eff_967b96d2",
+        "filename": "ims-patches/0001-ImsService-Switch-to-shared-libs-to-mtk-frameworks.patch",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-23T11:26:00Z",
+      "side": 1,
+      "message": "iirc some have issue without it during compilation since 16 QPR2",
+      "parentUuid": "e73b3e21_5e1e8330",
+      "revId": "1043eea7ffa9ea476da8dec4635852d42bb86013",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ad5ccb5_bec34e86",
         "filename": "ims-patches/0003-ImsService-Remove-references-to-TelephonyMetrics.patch",
         "patchSetId": 6
