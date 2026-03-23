@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ad5ccb5_bec34e86",
+        "filename": "ims-patches/0003-ImsService-Remove-references-to-TelephonyMetrics.patch",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-03-23T06:05:43Z",
+      "side": 1,
+      "message": "That\u0027s ugly, can you try with 475395 ?",
+      "revId": "1043eea7ffa9ea476da8dec4635852d42bb86013",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
