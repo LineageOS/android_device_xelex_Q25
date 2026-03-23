@@ -40,6 +40,18 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
     (
+        'vendor/firmware/ocs72xxx_cf.bin'
+    ): blob_fixup()
+        .binary_regex_replace(b"\x5F\x00\x00\x00", b"\x40\x00\x00\x00")
+        .binary_regex_replace(
+            b"\x01\x0D\x02\x1C\x03\x08\x04\x09\x05\x0E\x06\x08\x07\x56\x08\x87\x09\x12\x0A\xCA\x0B\x26",
+            b"\x01\x0D\x02\x1C\x03\x06\x04\x09\x05\x0A\x06\x06\x07\x56\x08\x87\x09\x12\x0A\xCA\x0B\x26",
+        )
+        .binary_regex_replace(
+            b"\x01\x0D\x02\x1C\x03\x08\x04\x09\x05\x0E\x06\x08",
+            b"\x01\x0D\x02\x1C\x03\x06\x04\x09\x05\x0A\x06\x06",
+        ),
+    (
         'vendor/lib64/android.hardware.power-service-mediatek.so'
     ): blob_fixup()
         .replace_needed('android.hardware.power-V2-ndk_platform.so', 'android.hardware.power-V2-ndk.so'),
