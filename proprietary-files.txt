@@ -7,8 +7,6 @@
 vendor/lib/libaedv.so
 
 # Audio
-vendor/bin/atcid
-vendor/bin/audiocmdservice_atci
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
 vendor/etc/audio_param/BtInfo_AudioParam.xml
@@ -128,76 +126,21 @@ vendor/etc/audio_policy_volumes.xml
 vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_rv.xml
 vendor/etc/default_volume_tables.xml
-vendor/etc/init/audiocmdservice_atci.rc
-vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
-vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
-vendor/etc/vintf/manifest/manifest_apuware_utils.xml
-vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
-vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib/hw/audio.primary.mediatek.so:vendor/lib/hw/audio.primary.mt6789.so
-vendor/lib/hw/audio.r_submix.mediatek.so:vendor/lib/hw/audio.r_submix.mt6789.so
-vendor/lib/hw/sound_trigger.primary.default.so
-vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/mt6789/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
-vendor/lib/soundfx/libaudiopreprocessing_mtk.so
-vendor/lib/lib_iir.so
-vendor/lib/lib_speech_enh.so
 vendor/lib/libadpcmdec_mtk.so
-vendor/lib/libapmonitor_vendor.so
 vendor/lib/libapu_mdw.so
 vendor/lib/libapu_mdw_batch.so
 vendor/lib/libapusys.so
 vendor/lib/libapusys_edma.so
-vendor/lib/libaudio_param_parser-vnd.so
-vendor/lib/libaudiocompensationfilter_vendor.so
-vendor/lib/libaudiocompensationfilterc.so
-vendor/lib/libaudiocomponentengine_vendor.so
-vendor/lib/libaudiocomponentenginec.so
-vendor/lib/libaudiocustparam_vendor.so
-vendor/lib/libaudiodcrflt_vendor.so
-vendor/lib/libaudiofmtconv.so
-vendor/lib/libaudioloudc.so
-vendor/lib/libaudioprimarydevicehalifclient.so
-vendor/lib/libaudiosmartpamtk.so
-vendor/lib/libaudiotoolkit_vendor.so
-vendor/lib/libaurisysdemo.so
-vendor/lib/libbessound_hd_mtk_vendor.so
-vendor/lib/libblisrc32_vendor.so
-vendor/lib/libbluetooth_audio_session_mediatek.so
 vendor/lib/libbwc.so
-vendor/lib/libcs_cs35l45_intf.so
-vendor/lib/libcvsd_mtk.so
 vendor/lib/libmp3dec_mtk.so
-vendor/lib/libmsbc_mtk.so
-vendor/lib/libmtklimiter_vendor.so
-vendor/lib/libmtkshifter_vendor.so
-vendor/lib/libmtkspparser.so
-vendor/lib/libnbaio_mono.so
-vendor/lib/libnxp_extamp_intf.so
-vendor/lib/librt_extamp_intf.so
-vendor/lib/libspeech_enh_lib.so
-vendor/lib/libspeechparser_vendor.so
-vendor/lib/libvow_ap_test_aa.so
-vendor/lib/libvow_ap_test_dd.so
-vendor/lib/libvow_ap_test_ha.so
-vendor/lib/libvow_ap_test_hh.so
-vendor/lib/libvow_ap_test_nn.so
 vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so
-vendor/lib/vendor.mediatek.hardware.audio@6.1.so
-vendor/lib/vendor.mediatek.hardware.audio@7.1.so
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib64/hw/audio.primary.mediatek.so
-vendor/lib64/hw/audio.r_submix.mediatek.so
+vendor/lib64/hw/audio.primary.mediatek.so:vendor/lib64/hw/audio.primary.mt6789.so
 vendor/lib64/hw/sound_trigger.primary.default.so
-vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
-vendor/lib64/APUWareApusysServer.so
-vendor/lib64/APUWareHmpServer.so
-vendor/lib64/APUWareUtilsServer.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
@@ -246,12 +189,6 @@ vendor/lib64/libvow_ap_test_dd.so
 vendor/lib64/libvow_ap_test_ha.so
 vendor/lib64/libvow_ap_test_hh.so
 vendor/lib64/libvow_ap_test_nn.so
-vendor/lib64/libwifitest.so
-vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
-vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
-vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
-vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
-vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
@@ -260,14 +197,6 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
-vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
-vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
-vendor/lib/libbluetooth_hw_test.so
-vendor/lib/libbluetooth_mtk.so
-vendor/lib/libbluetooth_mtk_pure.so
-vendor/lib/libbluetooth_relayer.so
-vendor/lib/libbluetoothem_mtk.so
-vendor/lib/libbt-vendor.so
 vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib64/libbluetooth_hw_test.so
 vendor/lib64/libbluetooth_mtk.so
@@ -647,9 +576,7 @@ vendor/lib64/libwpa_client.so
 vendor/lib64/meta_wifi_data.so
 
 # Display
-vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
-vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
 vendor/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so:vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/mt6789/libaiselector.so:vendor/lib/libaiselector.so
@@ -657,7 +584,6 @@ vendor/lib/mt6789/libpq_cust_base.so:vendor/lib/libpq_cust_base.so
 vendor/lib/mt6789/libpq_prot.so:vendor/lib/libpq_prot.so
 vendor/lib/libaal_key.so
 vendor/lib/libpqframework.so
-vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.10.so
@@ -680,10 +606,8 @@ vendor/lib64/mt6789/libpq_cust_base.so:vendor/lib64/libpq_cust_base.so
 vendor/lib64/mt6789/libpq_prot.so:vendor/lib64/libpq_prot.so
 vendor/lib64/mt6789/libvainr_model.so:vendor/lib64/libvainr_model.so
 vendor/lib64/libaal_key.so
-vendor/lib64/libmmagent.so
 vendor/lib64/libpqframework.so
 vendor/lib64/librgbwlightsensor.so
-vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.10.so
@@ -713,18 +637,8 @@ vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1e_1.bin
 vendor/firmware/WMT_SOC.cfg
 vendor/firmware/fm_cust.cfg
-vendor/firmware/mt6627_fm_v1_coeff.bin
-vendor/firmware/mt6627_fm_v1_patch.bin
-vendor/firmware/mt6630_fm_v1_coeff.bin
-vendor/firmware/mt6630_fm_v1_patch.bin
-vendor/firmware/mt6630_fm_v2_coeff.bin
-vendor/firmware/mt6630_fm_v2_coeff_tx.bin
-vendor/firmware/mt6630_fm_v2_patch.bin
-vendor/firmware/mt6630_fm_v2_patch_tx.bin
 vendor/firmware/mt6631_fm_v1_coeff.bin
 vendor/firmware/mt6631_fm_v1_patch.bin
-vendor/firmware/mt6632_fm_v1_coeff.bin
-vendor/firmware/mt6632_fm_v1_patch.bin
 vendor/firmware/mt6635_fm_v1_coeff.bin
 vendor/firmware/mt6635_fm_v1_patch.bin
 vendor/firmware/ocs72xxx_cf.bin
@@ -853,7 +767,6 @@ vendor/lib/libgralloc_extra.so
 vendor/lib/libgralloc_metadata.so
 vendor/lib/libgralloctypes_mtk.so
 vendor/lib/libladder.so
-vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/egl/mt6789/libGLES_mali.so:vendor/lib64/egl/libGLES_mali.so
@@ -888,7 +801,6 @@ vendor/lib64/libgralloctypes_mtk.so
 vendor/lib64/libladder.so
 vendor/lib64/libmml.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 
 # Kernel Modules Loading
@@ -897,29 +809,21 @@ vendor/etc/init.insmod.mt6789.cfg
 
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint-service.trustkernel
-vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
 vendor/bin/kph
 vendor/etc/init/android.hardware.security.keymint-service.trustkernel.rc
-vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustkernel.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustkernel.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustkernel.xml
 vendor/lib/hw/kmsetkey.trustkernel.so
-vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib/libdecrypt.so
 vendor/lib/libgz_gp_client.so
-vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
-vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/kmsetkey.trustkernel.so
-vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib64/libdecrypt.so
 vendor/lib64/libgz_gp_client.so
 vendor/lib64/libkmsetkey.so
 vendor/lib64/libkphhelper.so
 vendor/lib64/libkphproxy.so
 vendor/lib64/libpl.so
-vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
-vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Media
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
@@ -1052,8 +956,13 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 
 # NeuralNetworks
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk
+vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc
+vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml
+vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
+vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
+vendor/etc/vintf/manifest/manifest_apuware_utils.xml
 vendor/etc/armnn_app.config
 vendor/lib/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so:vendor/lib/libneuralnetworks_sl_driver_mtk_prebuilt.so
 vendor/lib/mt6789/libneuron_adapter_mgvi.so:vendor/lib/libneuron_adapter_mgvi.so
@@ -1066,32 +975,42 @@ vendor/lib/libneuron_graph_delegate.mtk.so
 vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libnpagent.so
 vendor/lib/libtflite_mtk.so
+vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so
+vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.1.so
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so:vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so
 vendor/lib64/mt6789/libneuron_adapter_mgvi.so:vendor/lib64/libneuron_adapter_mgvi.so
 vendor/lib64/mt6789/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so
+vendor/lib64/APUWareApusysServer.so
+vendor/lib64/APUWareHmpServer.so
+vendor/lib64/APUWareUtilsServer.so
 vendor/lib64/libarmnn.so
 vendor/lib64/libarmnn_ndk.mtk.vndk.so
 vendor/lib64/libcmdl.so
 vendor/lib64/libcmdl_ndk.mtk.vndk.so
+vendor/lib64/libmmagent.so
 vendor/lib64/libneuron_graph_delegate.mtk.so
 vendor/lib64/libneuron_platform.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnpagent.so
 vendor/lib64/libnpagent_server.so
 vendor/lib64/libtflite_mtk.so
+vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
+vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
+vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
+vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
+vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
+vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 
 # NFC
-vendor/bin/hw/android.hardware.nfc@1.2-service-st
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/bin/STFlashTool
 vendor/bin/nfcstackp-vendor
-vendor/etc/init/android.hardware.nfc@1.2-service-st.rc
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
@@ -1122,10 +1041,6 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # Power
-vendor/bin/eara_io_service
-vendor/bin/gbe
-vendor/etc/init/eara-io-service.rc
-vendor/etc/init/gbe.rc
 vendor/etc/nnapi_powerhal.json
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/libneuroeara.so
@@ -1135,11 +1050,6 @@ vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
-vendor/lib64/lib_eara_io_scndet.so
-vendor/lib64/lib_eara_io_service.so
-vendor/lib64/lib_eara_io_systracer.so
-vendor/lib64/lib_eara_io_timer.so
-vendor/lib64/lib_eara_io_util.so
 vendor/lib64/libmtkperf_client_vendor.so
 vendor/lib64/libneuroeara.so
 vendor/lib64/libperfctl_vendor.so
@@ -1489,8 +1399,8 @@ system_ext/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek
 system_ext/lib/libmtk_vt_wrapper.so
 system_ext/lib/libvcodec_cap.so
 system_ext/lib/libvcodec_capenc.so
-system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so
+system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/libcomutils.so
 system_ext/lib64/libimsma.so
 system_ext/lib64/libimsma_adapt.so
@@ -1504,9 +1414,9 @@ system_ext/lib64/libsource.so
 system_ext/lib64/libvcodec_cap.so
 system_ext/lib64/libvcodec_capenc.so
 system_ext/lib64/libvt_avsync.so
-system_ext/priv-app/ImsService/ImsService.apk
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+system_ext/priv-app/ImsService/ImsService.apk
 
 # Sensors
 vendor/etc/sensors/hals.conf
