@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
     mediaextractor.policy \
     mediaswcodec.policy
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayQ25 \
