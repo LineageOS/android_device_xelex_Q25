@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
