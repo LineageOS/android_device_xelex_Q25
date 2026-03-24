@@ -1054,11 +1054,9 @@ vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 
 # NFC
-vendor/bin/hw/android.hardware.nfc@1.2-service-st
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/bin/STFlashTool
 vendor/bin/nfcstackp-vendor
-vendor/etc/init/android.hardware.nfc@1.2-service-st.rc
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
