@@ -87,6 +87,24 @@
       "parentUuid": "fcb79495_90c7e1df",
       "revId": "8fde1e6c9e824d1dae224401a7926a96af1b412b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab86b089_2063ed23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-24T21:02:10Z",
+      "side": 1,
+      "message": "Doesn\u0027t boot on newer clang.",
+      "parentUuid": "8cb5a6a9_d1f7f9cb",
+      "revId": "8fde1e6c9e824d1dae224401a7926a96af1b412b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
