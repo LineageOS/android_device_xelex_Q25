@@ -105,10 +105,9 @@ PRODUCT_PACKAGES += \
 
 # IMS
 $(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
+$(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
 
 PRODUCT_BOOT_JARS += \
-    mediatek-common \
-    mediatek-framework \
     mediatek-ims-base
 
 PRODUCT_COPY_FILES += \
