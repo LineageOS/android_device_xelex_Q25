@@ -133,11 +133,13 @@ vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
 vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
 vendor/etc/vintf/manifest/manifest_apuware_utils.xml
 vendor/lib/mt6789/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
+vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libapu_mdw.so
 vendor/lib/libapu_mdw_batch.so
 vendor/lib/libapusys.so
 vendor/lib/libapusys_edma.so
 vendor/lib/libbwc.so
+vendor/lib/libmp3dec_mtk.so
 vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
