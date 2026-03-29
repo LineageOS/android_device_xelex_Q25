@@ -16,6 +16,24 @@
       "message": "just use .regex_replace instead?\n\n\n```\n    \u0027vendor/etc/sensors/hals.conf\u0027: blob_fixup()\n        .regex_replace(\u0027android.hardware.sensors@2.X-subhal-mediatek.so\u0027, \u0027android.hardware.sensors@2.0-subhal-impl-1.0.so\u0027),\n```",
       "revId": "e3cbdc56a65c609e517cede901fa16b8d927a1de",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b571e564_0c02c685",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32222
+      },
+      "writtenOn": "2026-03-29T12:39:39Z",
+      "side": 1,
+      "message": "Hard disagree, IMO it feels like a silly thing to have blobbed especially if, in the future, you wish to implement additional sensors (for DT2W, for example).\nIn that case, it\u0027s two commits across two repos to: A. Drop the prebuilt from the vendor repo and B. Import it to the device tree and modify it, instead of just one.",
+      "parentUuid": "e4381411_9d1d7697",
+      "revId": "e3cbdc56a65c609e517cede901fa16b8d927a1de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
