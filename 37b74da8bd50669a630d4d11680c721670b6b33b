@@ -16,6 +16,24 @@
       "message": "Please use the implementation android.hardware.sensors@2.0-subhal-impl-1.0 from hardware/lineage/interfaces I beg of you I wrote it to replace this blob that keeps breaking",
       "revId": "37b74da8bd50669a630d4d11680c721670b6b33b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aea992aa_06810816",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 11
+      },
+      "lineNbr": 1483,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-03-30T08:05:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "449d5028_ca29758e",
+      "revId": "37b74da8bd50669a630d4d11680c721670b6b33b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
