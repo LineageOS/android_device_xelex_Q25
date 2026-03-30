@@ -34,6 +34,24 @@
       "parentUuid": "e4381411_9d1d7697",
       "revId": "e3cbdc56a65c609e517cede901fa16b8d927a1de",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f97dc7f_59190cc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-30T01:27:33Z",
+      "side": 1,
+      "message": "so while I\u0027m fine with it in device tree if we want to do that - your reasoning is bad here - with the regex replace it\u0027s the exact same effort... add here, run extract push vendor.\n\nSame as will need to be done with this.",
+      "parentUuid": "b571e564_0c02c685",
+      "revId": "e3cbdc56a65c609e517cede901fa16b8d927a1de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
