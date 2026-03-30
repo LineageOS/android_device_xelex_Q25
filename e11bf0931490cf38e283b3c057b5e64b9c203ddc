@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67c4729c_9ca902d5",
+        "filename": "extract-files.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2026-03-30T08:31:50Z",
+      "side": 1,
+      "message": "This looks a bit scary, it\u0027s just an int32, make sure it only matches exactly what you want",
+      "revId": "e11bf0931490cf38e283b3c057b5e64b9c203ddc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
