@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2730f148_7ef0b2eb",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-03-30T21:01:36Z",
+      "side": 1,
+      "message": "maybe TARGET_2ND_ARCH_VARIANT :\u003d armv8-a",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 35
+      },
+      "revId": "ef34cb1b35fd1176fba25aa2ad7b32b807b0f65b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
