@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9d842ff_fa757292",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "Also I think you can mostly drop all of your 32bit blobs, maybe not vpud and it\u0027s deps tho.",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5dada0f_baa12241",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "You don\u0027t need atci unless you intend to run factory and meta_tst",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fb573fd_24b83c28",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "APU blobs are a part of Neural Network, not audio",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c2ba8bd_6bf48602",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "You shouldn\u0027t need to include that, unless you intend to add factory and meta_tst binaries later on.",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55d8e9f3_4c5ef707",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "you could use ;SYMLINK\u003d to use symlinks like stock. I don\u0027t mind you renaming them tho",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f764793_f788bcc6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "You can drop the fm firmware that you don\u0027t use for your platform",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64a47d98_b091fd13",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 854,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "mmagent is also a part of neural networks",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd43da59_013ef447",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 898,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "I don\u0027t think you need vendor.mediatek.hardware.keymaster_attestation unless you intend to use factory and meta_tst",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00d1dbbe_c4e612fa",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1086,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "Any reason why your using the prebuilt service instead of the one available on AOSP ?",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "99001d29_2f4a63fc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1203,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-03-30T10:10:40Z",
+      "side": 1,
+      "message": "ipsec and cacerts are already a part of your modem image",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
