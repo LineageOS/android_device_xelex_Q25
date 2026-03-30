@@ -52,6 +52,24 @@
       "parentUuid": "b571e564_0c02c685",
       "revId": "e3cbdc56a65c609e517cede901fa16b8d927a1de",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47ff86cc_ae592f5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32222
+      },
+      "writtenOn": "2026-03-30T16:30:40Z",
+      "side": 1,
+      "message": "Maybe I wasn\u0027t too clear with that :)\n\nSo if I had this defined as a regex_replace in blob fixups and I wanted to add another subhal, I\u0027d have to update the blob fixups to include it (one commit), re-run extraction and then do another commit on the vendor tree afterwards.\n\nIf I had hals.conf in the device tree in the first place, adding a new subhal would only need a change in the device tree (assuming that of course, the subhal I\u0027m adding isn\u0027t also blobbed).\n\nSo yes, I still think it makes more sense to have it in the device tree in case I\u0027m going to need another subhal in the future.",
+      "parentUuid": "9f97dc7f_59190cc8",
+      "revId": "e3cbdc56a65c609e517cede901fa16b8d927a1de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
