@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83f96cf7_3658ab37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 19
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32222
+      },
+      "writtenOn": "2026-03-31T03:01:51Z",
+      "side": 1,
+      "message": "Maybe look at shipping preloader as well? I\u0027m not sure if Zinwa are to provide any major kernel / firmware upgrades for this device but there\u0027s been issues related to preloader not being shipped on rosemary previously I believe.",
+      "revId": "7958135c8c033a76a927fd84fe7c753ad144ef4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
