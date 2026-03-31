@@ -16,6 +16,24 @@
       "message": "Maybe look at shipping preloader as well? I\u0027m not sure if Zinwa are to provide any major kernel / firmware upgrades for this device but there\u0027s been issues related to preloader not being shipped on rosemary previously I believe.",
       "revId": "7958135c8c033a76a927fd84fe7c753ad144ef4c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad37804d_f2b1eae3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 19
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-31T20:49:04Z",
+      "side": 1,
+      "message": "We can only ship slotted partitions:\n\n```\n/dev/block/platform/soc/11270000.ufshci/by-name/boot_a\n/dev/block/platform/soc/11270000.ufshci/by-name/connsys_bt_a\n/dev/block/platform/soc/11270000.ufshci/by-name/connsys_gnss_a\n/dev/block/platform/soc/11270000.ufshci/by-name/connsys_wifi_a\n/dev/block/platform/soc/11270000.ufshci/by-name/dpm_a\n/dev/block/platform/soc/11270000.ufshci/by-name/dtbo_a\n/dev/block/platform/soc/11270000.ufshci/by-name/gz_a\n/dev/block/platform/soc/11270000.ufshci/by-name/init_boot_a\n/dev/block/platform/soc/11270000.ufshci/by-name/lk_a\n/dev/block/platform/soc/11270000.ufshci/by-name/mcupm_a\n/dev/block/platform/soc/11270000.ufshci/by-name/md1img_a\n/dev/block/platform/soc/11270000.ufshci/by-name/pi_img_a\n/dev/block/platform/soc/11270000.ufshci/by-name/scp_a\n/dev/block/platform/soc/11270000.ufshci/by-name/spmfw_a\n/dev/block/platform/soc/11270000.ufshci/by-name/sspm_a\n/dev/block/platform/soc/11270000.ufshci/by-name/tee_a\n/dev/block/platform/soc/11270000.ufshci/by-name/vbmeta_a\n/dev/block/platform/soc/11270000.ufshci/by-name/vbmeta_system_a\n/dev/block/platform/soc/11270000.ufshci/by-name/vbmeta_vendor_a\n/dev/block/platform/soc/11270000.ufshci/by-name/vendor_boot_a\n```\n(coneys_* are empty)\n\nthese are the non-slotted ones:\n```\n/dev/block/platform/soc/11270000.ufshci/by-name/expdb\n/dev/block/platform/soc/11270000.ufshci/by-name/flashinfo\n/dev/block/platform/soc/11270000.ufshci/by-name/frp\n/dev/block/platform/soc/11270000.ufshci/by-name/logo\n/dev/block/platform/soc/11270000.ufshci/by-name/metadata\n/dev/block/platform/soc/11270000.ufshci/by-name/misc\n/dev/block/platform/soc/11270000.ufshci/by-name/nvcfg\n/dev/block/platform/soc/11270000.ufshci/by-name/nvdata\n/dev/block/platform/soc/11270000.ufshci/by-name/nvram\n/dev/block/platform/soc/11270000.ufshci/by-name/otp\n/dev/block/platform/soc/11270000.ufshci/by-name/para\n/dev/block/platform/soc/11270000.ufshci/by-name/persist\n/dev/block/platform/soc/11270000.ufshci/by-name/proinfo\n/dev/block/platform/soc/11270000.ufshci/by-name/protect1\n/dev/block/platform/soc/11270000.ufshci/by-name/protect2\n/dev/block/platform/soc/11270000.ufshci/by-name/sec1\n/dev/block/platform/soc/11270000.ufshci/by-name/seccfg\n/dev/block/platform/soc/11270000.ufshci/by-name/super\n/dev/block/platform/soc/11270000.ufshci/by-name/userdata\n```\n\nwhich are you pitching we include?",
+      "parentUuid": "83f96cf7_3658ab37",
+      "revId": "7958135c8c033a76a927fd84fe7c753ad144ef4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
