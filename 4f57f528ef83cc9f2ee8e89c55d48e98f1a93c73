@@ -16,6 +16,24 @@
       "message": "```suggestion\nvendor/lib64/hw/audio.primary.mediatek.so:vendor/lib64/hw/audio.primary.mt6789.so\n```",
       "revId": "4f57f528ef83cc9f2ee8e89c55d48e98f1a93c73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5a26bbf_85b89b27",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-07T01:42:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c940396a_62cddb6c",
+      "revId": "4f57f528ef83cc9f2ee8e89c55d48e98f1a93c73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
