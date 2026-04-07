@@ -121,10 +121,6 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .fix_soname(),
     (
-        'vendor/bin/hw/android.hardware.memtrack-service.mediatek'
-    ): blob_fixup()
-        .replace_needed('android.hardware.memtrack-V1-ndk_platform.so', 'android.hardware.memtrack-V1-ndk.so'),
-    (
         'vendor/bin/hw/android.hardware.security.keymint-service.trustkernel'
     ): blob_fixup()
         .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so', 'android.hardware.security.keymint-V1-ndk.so')

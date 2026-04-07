@@ -773,13 +773,10 @@ vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 
 # Graphics
 vendor/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789:vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
-vendor/bin/hw/android.hardware.memtrack-service.mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
-vendor/etc/init/memtrack-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc
 vendor/etc/vintf/manifest/manifest_hwcomposer.xml
-vendor/etc/vintf/manifest/memtrack-mediatek.xml
 vendor/etc/meow.cfg
 vendor/lib/egl/mt6789/libGLES_mali.so:vendor/lib/egl/libGLES_mali.so
 vendor/lib/egl/libGLES_meow.so
