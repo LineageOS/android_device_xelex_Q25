@@ -137,6 +137,10 @@ PRODUCT_PACKAGES += \
     mediaextractor.policy \
     mediaswcodec.policy
 
+# Memtrack
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-service.mediatek
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st
