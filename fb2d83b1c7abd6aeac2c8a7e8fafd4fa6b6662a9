@@ -16,6 +16,24 @@
       "message": "https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr/blob/lineage-23.2/SEPolicy.mk#L4",
       "revId": "fb2d83b1c7abd6aeac2c8a7e8fafd4fa6b6662a9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14b2bb09_821d9fb5",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 14
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1eb1cff_a1a715fd",
+      "revId": "fb2d83b1c7abd6aeac2c8a7e8fafd4fa6b6662a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
