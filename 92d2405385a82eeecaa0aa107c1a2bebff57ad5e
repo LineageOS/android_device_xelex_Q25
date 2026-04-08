@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "22e2282a_74b95256",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "a9d842ff_fa757292",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5dada0f_baa12241",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-03-30T10:10:40Z",
       "side": 1,
       "message": "You don\u0027t need atci unless you intend to run factory and meta_tst",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0b7fed0_49d29d0c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5dada0f_baa12241",
       "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3afdfbc7_72dc68af",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8fb573fd_24b83c28",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5c2ba8bd_6bf48602",
@@ -69,6 +123,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "003e22db_ad23f77a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c2ba8bd_6bf48602",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "55d8e9f3_4c5ef707",
@@ -82,6 +154,24 @@
       "writtenOn": "2026-03-30T10:10:40Z",
       "side": 1,
       "message": "you could use ;SYMLINK\u003d to use symlinks like stock. I don\u0027t mind you renaming them tho",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db818dd2_3f05fc5c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Electi prefers not using symlinks",
+      "parentUuid": "55d8e9f3_4c5ef707",
       "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -120,6 +210,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a58bbce1_82f3cec5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 854,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "64a47d98_b091fd13",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fd43da59_013ef447",
@@ -137,6 +245,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb8cd881_bff930a7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 898,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fd43da59_013ef447",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "00d1dbbe_c4e612fa",
@@ -150,6 +276,24 @@
       "writtenOn": "2026-03-30T10:10:40Z",
       "side": 1,
       "message": "Any reason why your using the prebuilt service instead of the one available on AOSP ?",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58428733_6f022746",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1086,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-08T09:53:17Z",
+      "side": 1,
+      "message": "Done in follow up patch",
+      "parentUuid": "00d1dbbe_c4e612fa",
       "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
