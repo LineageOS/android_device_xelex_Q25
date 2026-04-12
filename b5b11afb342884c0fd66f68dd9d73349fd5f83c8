@@ -16,6 +16,24 @@
       "message": "Extra rules like this are overridden by language overlay key character maps from InputDevices.apk when the user selects a language other than English",
       "revId": "b5b11afb342884c0fd66f68dd9d73349fd5f83c8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "358d14d0_0960ca25",
+        "filename": "configs/keychars/Q25_keyboard.kcm",
+        "patchSetId": 15
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-04-12T21:46:06Z",
+      "side": 1,
+      "message": "fix in follow up",
+      "parentUuid": "c0d9ae9b_b301998b",
+      "revId": "b5b11afb342884c0fd66f68dd9d73349fd5f83c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
