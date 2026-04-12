@@ -193,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "92ae339a_dfc229d5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-04-12T21:45:43Z",
+      "side": 1,
+      "message": "We\u0027ll thin that down later.",
+      "parentUuid": "1f764793_f788bcc6",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "64a47d98_b091fd13",
@@ -311,6 +329,24 @@
       "writtenOn": "2026-03-30T10:10:40Z",
       "side": 1,
       "message": "ipsec and cacerts are already a part of your modem image",
+      "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d3736b2_4d525db7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1203,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-04-12T21:45:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99001d29_2f4a63fc",
       "revId": "92d2405385a82eeecaa0aa107c1a2bebff57ad5e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
