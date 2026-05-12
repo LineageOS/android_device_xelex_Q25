@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Xelex/Xelex10_Ultra/Xelex10_Ultra:14/20240427/UP1v:user/release-keys
+# All unpinned blobs below are extracted from Xelex/Xelex10_Ultra/Xelex10_Ultra:14/20240427/UP1v:user/release-keys - 2026124 release
 
 # Current blobs with ELF checks disabled:
 # libHEVCdec_sa.ca7.android.so, libh264dec_sa.ca7.so, libh264dec_sd.ca7.so, libh264dec_se.ca7.so, libh264enc_sa.ca7.so, libhevce_sb.ca7.android.so, libmp4enc_sa.ca7.so, libmp4enc_xa.ca7.so, libthha.so, libvcodec_oal.so, ibvp8dec_sa.ca7.so, libvp8enc_sa.ca7.so, libvp9dec_sa.ca7.so, libhevce_sb.ca7.android.so, libthha.so, libvcodec_oal.so depend on intrinsic symbols which changed namespaces (__aeabi_idiv, __aeabi_idivmod, __aeabi_uidiv, __aeabi_uidivmod) which are difficult to shim (TODO)
