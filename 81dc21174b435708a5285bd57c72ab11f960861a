@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a79707e_b7c84f3b",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-05-12T16:14:20Z",
+      "side": 1,
+      "message": "Duplicated with the above, should be this:\n\n```suggestion\nifneq ($(WITH_AVB),true)\nBOARD_AVB_MAKE_VBMETA_IMAGE_ARGS +\u003d --flags 3\nendif\n```",
+      "range": {
+        "startLine": 154,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 44
+      },
+      "revId": "81dc21174b435708a5285bd57c72ab11f960861a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d66cc8f1_152960ce",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-05-12T16:14:20Z",
+      "side": 1,
+      "message": "Here and below you can swap the order of KEY_PATH and ALGORITHM for alphabetical sort",
+      "revId": "81dc21174b435708a5285bd57c72ab11f960861a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
