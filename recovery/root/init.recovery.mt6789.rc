@@ -1,4 +1,7 @@
 on init
+    write /sys/module/musb_hdrc/parameters/kernel_init_done 1
+    write /sys/module/musb_hdrc/parameters/musb_force_on 1
+    write /sys/class/udc/musb-hdrc/device/cmode 3
     setprop sys.usb.configfs 1
     setprop sys.usb.controller "musb-hdrc"
     setprop vendor.usb.controller "musb-hdrc"
