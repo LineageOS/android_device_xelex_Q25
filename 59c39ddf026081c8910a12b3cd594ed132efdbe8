@@ -16,6 +16,24 @@
       "message": "As per discord discussions this should be reverted and you should properly inherit virtual AB config instead",
       "revId": "59c39ddf026081c8910a12b3cd594ed132efdbe8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64eb1549_ebe1ac0a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-05-26T02:18:22Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "98397995_4ab36a2c",
+      "revId": "59c39ddf026081c8910a12b3cd594ed132efdbe8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
