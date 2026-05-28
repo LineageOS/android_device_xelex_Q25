@@ -24,9 +24,6 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the device capable of hot swapping an UICC Card -->
-    <bool name="config_hotswapCapable">true</bool>
-
     <!-- Minimum screen brightness setting allowed by power manager.
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
@@ -199,37 +196,4 @@
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
          on the headphone/microphone jack. When false use the older uevent framework. -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
-
-    <!-- Flag specifying whether VoLTE is available on device -->
-    <bool name="config_device_volte_available">true</bool>
-
-    <!-- Flag specifying whether VoLTE should be available for carrier: independent of
-         carrier provisioning. If false: hard disabled. If true: then depends on carrier
-         provisioning, availability etc -->
-    <bool name="config_carrier_volte_available">true</bool>
-
-    <!-- Flag specifying whether VT is available on device -->
-    <bool name="config_device_vt_available">true</bool>
-
-    <!-- Flag specifying whether WFC over IMS is available on device -->
-    <bool name="config_device_wfc_ims_available">true</bool>
-
-    <!-- Flag specifying whether WFC over IMS should be available for carrier: independent of
-         carrier provisioning. If false: hard disabled. If true: then depends on carrier
-         provisioning, availability etc -->
-    <bool name="config_carrier_wfc_ims_available">true</bool>
-
-    <!-- Boolean indicating USSD over IMS is allowed.
-     If it is not supported due to modem limitations, USSD send over the CS pipe instead.-->
-    <bool name="config_allow_ussd_over_ims">true</bool>
-
-    <!-- Default files to pin via Pinner Service -->
-    <string-array name="config_defaultPinnerServiceFiles" translatable="false">
-        <item>/apex/com.android.art/javalib/core-oj.jar</item>
-        <item>/apex/com.android.art/javalib/core-libart.jar</item>
-        <item>/system/framework/framework.jar</item>
-        <item>/system/framework/services.jar</item>
-        <item>/system/bin/surfaceflinger</item>
-        <item>/system_ext/priv-app/SystemUI/SystemUI.apk</item>
-    </string-array>
 </resources>
