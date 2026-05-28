@@ -1054,8 +1054,6 @@ vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/st21nfc_conf.txt
-vendor/lib/nfc_nci.st21nfc.st.so
-vendor/lib64/nfc_nci.st21nfc.st.so
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
