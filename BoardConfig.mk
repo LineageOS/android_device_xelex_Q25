@@ -116,9 +116,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 TARGET_COPY_OUT_ODM_DLKM := odm_dlkm
 
-# Platform
-TARGET_BOARD_PLATFORM := mt6789
-
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
@@ -129,9 +126,6 @@ BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6789
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 TARGET_USERIMAGES_USE_F2FS := true
-
-# RIL
-ENABLE_VENDOR_RIL_SERVICE := true
 
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
