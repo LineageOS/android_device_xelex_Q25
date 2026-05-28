@@ -157,12 +157,12 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st
 
 # Overlays
+$(call inherit-product, hardware/mediatek/overlays/mssi.mk)
+
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayQ25 \
     FrameworksResOverlayQ25 \
-    LineageSDKResCommon \
-    TelephonyOverlayQ25 \
-    WifiResOverlayQ25
+    LineageSDKResCommon
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -212,6 +212,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2021-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+# Platform
+TARGET_BOARD_PLATFORM := mt6789
+
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -221,6 +224,9 @@ PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
     libmtkperf_client \
     vendor.mediatek.hardware.mtkpower@1.2-service.stub
+
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
 
 # Rootdir
 PRODUCT_PACKAGES += \
