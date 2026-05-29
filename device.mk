@@ -91,6 +91,10 @@ PRODUCT_BUILD_SUPER_PARTITION := true
 PRODUCT_PACKAGES += \
     fastbootd
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    FMRadio
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
