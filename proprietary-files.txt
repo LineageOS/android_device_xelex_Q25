@@ -125,7 +125,6 @@ vendor/etc/audio_em.xml
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_rv.xml
-vendor/etc/default_volume_tables.xml
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.mediatek.so:vendor/lib/hw/audio.primary.mt6789.so
