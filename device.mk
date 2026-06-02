@@ -222,7 +222,6 @@ PRODUCT_PACKAGES += \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6789.rc \
-    init.mt6789.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
     init.sensor_2_0.rc \
@@ -252,7 +251,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek \
-    android.hardware.usb.gadget-service.mediatek
+    android.hardware.usb.gadget-service.mediatek \
+    init.mt6789.usb.rc
 
 # Vibrator
 PRODUCT_PACKAGES += \
