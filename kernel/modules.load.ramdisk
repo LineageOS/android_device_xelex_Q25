@@ -122,6 +122,7 @@ mtk_pd_charging.ko
 mtk_pep20.ko
 mtk_pep.ko
 mtk_charger_framework.ko
+upm6922_charger.ko
 rt_pd_manager.ko
 rt-regmap.ko
 mt6358_battery.ko
@@ -155,6 +156,5 @@ irq-dbg.ko
 mtk-socinfo.ko
 upm6722.ko
 hodafone_battery.ko
-upm6922_charger.ko
 wl2868c-regulator.ko
 st21nfc.ko
