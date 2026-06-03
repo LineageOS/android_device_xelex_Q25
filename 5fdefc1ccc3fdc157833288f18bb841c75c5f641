@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f49c7c3c_af1de4f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-06-03T22:41:44Z",
+      "side": 1,
+      "message": "While we do support RGB, we the color picker is broken for the most part since the brightness doesn\u0027t change. Revisit later (not sure if it\u0027s hw or kernel)",
+      "revId": "5fdefc1ccc3fdc157833288f18bb841c75c5f641",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
