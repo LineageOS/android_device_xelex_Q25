@@ -16,6 +16,24 @@
       "message": "Would be nicer if you import the vanilla aosp config and then on top add the edits from stock.",
       "revId": "085310a1052ec3153b18bf8a391c01c65b361802",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abd955c5_8afd2936",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-06-03T22:34:29Z",
+      "side": 1,
+      "message": "It is the same as the AOSP config, I can prob just rename the commit msg",
+      "parentUuid": "7b46a839_d032976d",
+      "revId": "085310a1052ec3153b18bf8a391c01c65b361802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
