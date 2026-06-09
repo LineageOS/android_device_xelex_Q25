@@ -130,6 +130,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/Q25_keyboard.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Q25_keyboard.kl \
     $(LOCAL_PATH)/configs/keychars/Q25_keyboard.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Q25_keyboard.kcm
 
+# Keyboard layout (physical keyboard Alt-layer overlay app)
+PRODUCT_PACKAGES += \
+    Q25KeyboardLayout
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage

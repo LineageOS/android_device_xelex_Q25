@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <keyboard-layout
+        android:name="keyboard_layout_q25"
+        android:label="@string/keyboard_layout_q25_label"
+        android:keyboardLayout="@raw/keyboard_layout_q25"
+        android:keyboardLocale="en-Latn-US"
+        android:keyboardLayoutType="qwerty" />
+</keyboard-layouts>
