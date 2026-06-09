@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_label">Q25 Keyboard Layout</string>
+    <string name="keyboard_layouts_label">Q25 physical keyboard layout</string>
+    <string name="keyboard_layout_q25_label">Q25</string>
+</resources>
