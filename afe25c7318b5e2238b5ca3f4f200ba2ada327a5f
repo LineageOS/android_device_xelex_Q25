@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd6a6dc7_ef695b4c",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-06-28T19:15:22Z",
+      "side": 1,
+      "message": "Use FIX_SONAME in proprietary-files.txt",
+      "revId": "afe25c7318b5e2238b5ca3f4f200ba2ada327a5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
