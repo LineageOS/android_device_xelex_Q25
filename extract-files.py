@@ -123,7 +123,6 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .add_needed('libbase_shim.so'),
     (
-        'system_ext/lib64/libsink-mtk.so',
         'vendor/lib/libspeech_enh_lib.so',
         'vendor/lib64/libspeech_enh_lib.so',
         'vendor/lib64/libwifi-hal-mtk.so',
@@ -134,6 +133,11 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/hw/audio.r_submix.mt6789.so',
     ): blob_fixup()
         .fix_soname(),
+    (
+        'system_ext/lib64/libsink-mtk.so',
+    ): blob_fixup()
+        .fix_soname()
+        .add_needed('libaudioclient_shim.so'),
     (
         'vendor/bin/hw/android.hardware.security.keymint-service.trustkernel'
     ): blob_fixup()
