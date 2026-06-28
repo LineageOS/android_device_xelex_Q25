@@ -47,7 +47,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/bin/mnld',
     ): blob_fixup()
         .binary_regex_replace(b'ro.logsystem.usertype', b'ro.vendor.lgsys.utype')
-        .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
+        .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so')
+        .replace_needed('libmnl.so', 'libmnl_mtk.so'),
     (
         'vendor/firmware/ocs72xxx_cf.bin'
     ): blob_fixup()
@@ -85,8 +86,9 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
     (
-        'vendor/lib64/libmnl.so'
+        'vendor/lib64/libmnl_mtk.so'
     ): blob_fixup()
+        .fix_soname()
         .add_needed('libcutils.so'),
     (
         'vendor/lib/libneuralnetworks_sl_driver_mtk_prebuilt.so',
