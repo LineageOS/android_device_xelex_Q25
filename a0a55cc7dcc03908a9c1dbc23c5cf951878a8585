@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44cb3706_4a922af1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 768,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-06-28T19:16:15Z",
+      "side": 1,
+      "message": "```suggestion\nvendor/lib64/mt6789/libmnl.so:vendor/lib64/libmnl_mtk.so;FIX_SONAME\n```",
+      "revId": "a0a55cc7dcc03908a9c1dbc23c5cf951878a8585",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
