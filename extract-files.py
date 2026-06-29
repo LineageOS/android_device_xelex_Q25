@@ -62,6 +62,18 @@ blob_fixups: blob_fixups_user_type = {
             b"\x01\x0D\x02\x1C\x03\x06\x04\x09\x05\x0A\x06\x06",
         ),
     (
+        'vendor/lib/libcodec2_mtk_venc.so',
+        'vendor/lib/libcodec2_mtk_vdec.so',
+        'vendor/lib64/libcodec2_mtk_venc.so',
+        'vendor/lib64/libcodec2_mtk_vdec.so',
+    ): blob_fixup()
+        .replace_needed('libformatter.so', 'libformatter_mtk.so'),
+    (
+        'vendor/lib/libformatter_mtk.so',
+        'vendor/lib64/libformatter_mtk.so',
+    ): blob_fixup()
+        .fix_soname(),
+    (
         'vendor/lib64/android.hardware.power-service-mediatek.so'
     ): blob_fixup()
         .replace_needed('android.hardware.power-V2-ndk_platform.so', 'android.hardware.power-V2-ndk.so'),
