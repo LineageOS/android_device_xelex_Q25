@@ -16,6 +16,24 @@
       "message": "```suggestion\nvendor/lib64/mt6789/libmnl.so:vendor/lib64/libmnl_mtk.so;FIX_SONAME\n```",
       "revId": "a0a55cc7dcc03908a9c1dbc23c5cf951878a8585",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb19430a_d71b3041",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 768,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-06-29T03:50:23Z",
+      "side": 1,
+      "message": "see above, will do in a follow up.",
+      "parentUuid": "44cb3706_4a922af1",
+      "revId": "a0a55cc7dcc03908a9c1dbc23c5cf951878a8585",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
