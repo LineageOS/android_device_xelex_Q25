@@ -223,6 +223,7 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    chipinfo \
     fstab.mt6789 \
     fstab.mt6789.vendor_ramdisk \
     init.cgroup.rc \
