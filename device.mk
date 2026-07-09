@@ -61,7 +61,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl
 
 PRODUCT_PACKAGES += \
-    audio.r_submix.default \
     libaudiofoundation.vendor \
     libbluetooth_audio_session \
     libalsautils \
