@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79a8a71e_533be4ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-07-09T06:38:55Z",
+      "side": 1,
+      "message": "rw_dir_file exists as lineage addition",
+      "revId": "bde7c79e71bea399598bae1338426b053a01cf12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
