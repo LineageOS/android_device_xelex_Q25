@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24b171fc_c706e984",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-07-18T03:33:10Z",
+      "side": 1,
+      "message": "did you accidentally push commit directly to branch that\u0027s why? it wasn\u0027t pushed from gerrit looking at the commit history on github",
+      "revId": "23b557866d8059404453eb08aaf982d123bbc174",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
