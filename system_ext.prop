@@ -4,6 +4,12 @@ sys.brightness.disable_gamma_conversion=true
 # FOTA
 ro.fota.version=Q25_26.03.2026
 
+# Radio
+ro.vendor.mtk_cta_set=1
+ro.vendor.mtk_telephony_add_on_policy=0
+vendor.rild.libargs=-d /dev/ttyC0
+vendor.rild.libpath=mtk-ril.so
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
