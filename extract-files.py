@@ -163,10 +163,6 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
     (
-        'system_ext/lib64/libsource.so',
-    ): blob_fixup()
-        .add_needed('libui_shim.so'),
-    (
         'vendor/etc/init/init.volte_md_status.rc'
     ): blob_fixup()
         .binary_regex_replace(b'system/vendor', b'vendor'),
