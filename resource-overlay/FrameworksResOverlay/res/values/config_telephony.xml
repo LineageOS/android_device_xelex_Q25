@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- IWLAN data service class name to bind to by default. If none is specified in an overlay, an
+         empty string is passed in -->
+    <string name="config_wlan_data_service_class" translatable="false">com.mediatek.internal.telephony.data.IwlanDataService</string>
+
+    <!-- IWLAN network service class name to bind to by default. If none is specified in an overlay,
+         an empty string is passed in -->
+    <string name="config_wlan_network_service_class" translatable="false">com.mediatek.internal.telephony.IWlanNetworkService</string>
+</resources>

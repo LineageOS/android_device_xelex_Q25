@@ -232,12 +232,4 @@
         <item>/system/bin/surfaceflinger</item>
         <item>/system_ext/priv-app/SystemUI/SystemUI.apk</item>
     </string-array>
-
-    <!-- IWLAN data service class name to bind to by default. If none is specified in an overlay, an
-         empty string is passed in -->
-    <string name="config_wlan_data_service_class" translatable="false">com.mediatek.internal.telephony.data.IwlanDataService</string>
-
-    <!-- IWLAN network service class name to bind to by default. If none is specified in an overlay,
-         an empty string is passed in -->
-    <string name="config_wlan_network_service_class" translatable="false">com.mediatek.internal.telephony.IWlanNetworkService</string>
 </resources>
