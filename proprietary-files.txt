@@ -1270,8 +1270,13 @@ vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE_SUFFIX=_vendo
 # Radio (IMS)
 system_ext/bin/vtservice
 system_ext/etc/init/init.vtservice.rc
-system_ext/framework/mediatek-ims-base.jar:system/framework/mediatek-ims-base.jar
-system_ext/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar
+system_ext/etc/sysconfig/com.mediatek.ims.config.xml
+system_ext/framework/mediatek-ims-base.jar:system/framework/mediatek-ims-base.jar;BOOT_JAR
+system_ext/framework/mediatek-ims-common.jar:system/framework/mediatek-ims-common.jar;BOOT_JAR
+system_ext/framework/mediatek-ims-extension-plugin.jar
+system_ext/framework/mediatek-telecom-common.jar:system/framework/mediatek-telecom-common.jar;BOOT_JAR
+system_ext/framework/mediatek-telephony-base.jar:system/framework/mediatek-telephony-base.jar;BOOT_JAR
+system_ext/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar;BOOT_JAR
 system_ext/lib/libmtk_vt_wrapper.so
 system_ext/lib/libvcodec_cap.so
 system_ext/lib/libvcodec_capenc.so
@@ -1293,6 +1298,8 @@ system_ext/lib64/libvt_avsync.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/priv-app/ImsService/ImsService.apk
+system_ext/priv-app/MtkGbaService/MtkGbaService.apk
+system_ext/priv-app/MtkTelephonyAssist/MtkTelephonyAssist.apk
 
 # Sensors
 vendor/etc/sensors/hals.conf
