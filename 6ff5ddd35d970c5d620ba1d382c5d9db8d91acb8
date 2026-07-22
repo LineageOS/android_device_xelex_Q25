@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36140ff9_9ccd74dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-22T04:57:55Z",
+      "side": 1,
+      "message": "```07-21 18:30:04.639 3537939 3537939 F dex2oatd: method_verifier.cc:5870 java.lang.String com.mediatek.internal.telephony.uicc.MtkUsimFileHandler.getEFPath(int) failed to verify: java.lang.String com.mediatek.internal.telephony.uicc.MtkUsimFileHandler.getEFPath(int): [0xC] \u0027this\u0027 argument \u0027Unresolved Reference: com.mediatek.internal.telephony.uicc.MtkUsimFileHandler\u0027 not instance of \u0027Reference: com.android.internal.telephony.uicc.UsimFileHandler\u0027\n07-21 18:30:04.639 3537939 3537939 F dex2oatd: method_verifier.cc:5870```",
+      "revId": "6ff5ddd35d970c5d620ba1d382c5d9db8d91acb8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
