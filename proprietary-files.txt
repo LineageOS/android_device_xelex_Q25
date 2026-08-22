@@ -591,7 +591,6 @@ vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Connectivity
-vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/etc/init/init.bt_drv.rc
@@ -601,7 +600,6 @@ vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.gps_pwr.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/init.wmt_drv.rc
-vendor/etc/init/wlan_assistant.rc
 vendor/lib/libconnfem.so
 vendor/lib/libwpa_client.so
 vendor/lib/meta_wifi_data.so
