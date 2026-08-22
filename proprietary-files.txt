@@ -3,9 +3,6 @@
 # Current blobs with ELF checks disabled:
 # libHEVCdec_sa.ca7.android.so, libh264dec_sa.ca7.so, libh264dec_sd.ca7.so, libh264dec_se.ca7.so, libh264enc_sa.ca7.so, libhevce_sb.ca7.android.so, libmp4enc_sa.ca7.so, libmp4enc_xa.ca7.so, libthha.so, libvcodec_oal.so, ibvp8dec_sa.ca7.so, libvp8enc_sa.ca7.so, libvp9dec_sa.ca7.so, libhevce_sb.ca7.android.so, libthha.so, libvcodec_oal.so depend on intrinsic symbols which changed namespaces (__aeabi_idiv, __aeabi_idivmod, __aeabi_uidiv, __aeabi_uidivmod) which are difficult to shim (TODO)
 
-# AEE
-vendor/lib/libaedv.so
-
 # Audio
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
@@ -553,7 +550,6 @@ vendor/lib64/libCamera_imx111mipiraw_N3D_Video.so
 vendor/lib64/libCamera_imx111mipiraw_P1_YUV.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
-vendor/lib64/libaedv.so
 vendor/lib64/libbwc.so
 vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libcamalgo.3dnr.so
@@ -797,7 +793,6 @@ vendor/lib/libgpud.so
 vendor/lib/libgralloc_extra.so
 vendor/lib/libgralloc_metadata.so
 vendor/lib/libgralloctypes_mtk.so
-vendor/lib/libladder.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/egl/mt6789/libGLES_mali.so:vendor/lib64/egl/libGLES_mali.so
@@ -829,7 +824,6 @@ vendor/lib64/libgpud.so
 vendor/lib64/libgralloc_extra.so
 vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
-vendor/lib64/libladder.so
 vendor/lib64/libmml.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
