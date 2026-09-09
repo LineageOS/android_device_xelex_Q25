@@ -1,4 +1,4 @@
-From 40a9be53d4f83563227795e5fd2392f99cd8ba9b Mon Sep 17 00:00:00 2001
+From cf462259ccb35882c63d98300d3bb87abafca506 Mon Sep 17 00:00:00 2001
 From: bengris32 <bengris32@protonmail.ch>
 Date: Fri, 15 Dec 2023 22:05:40 +0000
 Subject: [PATCH] ImsService: Export receivers that aren't exclusively
@@ -8,7 +8,7 @@ Subject: [PATCH] ImsService: Export receivers that aren't exclusively
 
 Signed-off-by: bengris32 <bengris32@protonmail.ch>
 ---
- AndroidManifest.xml                                       | 4 ++--
+ AndroidManifest.xml                                       | 2 +-
  smali/com/mediatek/ims/ImsConfigManager.smali             | 8 ++++----
  smali/com/mediatek/ims/MtkSuppServExt.smali               | 6 ++++--
  .../ims/config/internal/ImsConfigController.smali         | 6 ++++--
@@ -18,10 +18,10 @@ Signed-off-by: bengris32 <bengris32@protonmail.ch>
  smali/com/mediatek/wfo/impl/MwiService.smali              | 6 ++++--
  smali/com/mediatek/wfo/impl/WfcHandler.smali              | 6 ++++--
  smali/com/mediatek/wfo/impl/WifiPdnHandler.smali          | 6 ++++--
- 10 files changed, 38 insertions(+), 22 deletions(-)
+ 10 files changed, 37 insertions(+), 21 deletions(-)
 
 diff --git a/AndroidManifest.xml b/AndroidManifest.xml
-index b8ecdfa..1bd413f 100644
+index b8ecdfa..ade884e 100644
 --- a/AndroidManifest.xml
 +++ b/AndroidManifest.xml
 @@ -61,7 +61,7 @@
@@ -33,13 +33,6 @@ index b8ecdfa..1bd413f 100644
              <intent-filter>
                  <action android:name="android.telephony.action.CARRIER_CONFIG_CHANGED"/>
              </intent-filter>
-@@ -72,4 +72,4 @@
-             </intent-filter>
-         </service>
-     </application>
--</manifest>
-\ No newline at end of file
-+</manifest>
 diff --git a/smali/com/mediatek/ims/ImsConfigManager.smali b/smali/com/mediatek/ims/ImsConfigManager.smali
 index 45dac22..a35553d 100644
 --- a/smali/com/mediatek/ims/ImsConfigManager.smali
@@ -263,5 +256,5 @@ index e806430..be9f140 100644
      .line 858
      return-void
 -- 
-2.43.0
+2.53.0
 
