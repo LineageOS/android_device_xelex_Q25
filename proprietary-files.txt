@@ -1268,7 +1268,6 @@ system_ext/framework/mediatek-ims-common.jar:system/framework/mediatek-ims-commo
 system_ext/framework/mediatek-ims-extension-plugin.jar|a355792e0ad157f927df2a3f9a36c0196e828cd6
 system_ext/framework/mediatek-telecom-common.jar:system/framework/mediatek-telecom-common.jar|8964e6e4796aaeeced9fa0eaf7c658a1d872aa4f;BOOT_JAR
 system_ext/framework/mediatek-telephony-base.jar:system/framework/mediatek-telephony-base.jar|138a5b5600a8a46e8d407d2654bee0c21d742624;BOOT_JAR
-system_ext/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar|a6c3f1fb6617aa485f4dec62294312e39ad7c944;BOOT_JAR
 system_ext/lib/libmtk_vt_wrapper.so|4377acf57cc309234157e69c3197bd4d9ea7f691
 system_ext/lib/libvcodec_cap.so|8f16190d071b853d811554b322ba18aa8e5c140b
 system_ext/lib/libvcodec_capenc.so|7c861e46b8e6f1df39814154e9ca8a348a52a5c1
