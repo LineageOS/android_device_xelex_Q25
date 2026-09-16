@@ -63,6 +63,10 @@ blob_fixups: blob_fixups_user_type = {
             b"\x01\x0D\x02\x1C\x03\x06\x04\x09\x05\x0A\x06\x06",
         ),
     (
+        'vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so',
+    ): blob_fixup()
+        .replace_needed('android.hardware.audio@7.0-util.so', 'android.hardware.audio@7.0-util-v34.so'),
+    (
         'vendor/lib/libcodec2_mtk_venc.so',
         'vendor/lib/libcodec2_mtk_vdec.so',
         'vendor/lib64/libcodec2_mtk_venc.so',
