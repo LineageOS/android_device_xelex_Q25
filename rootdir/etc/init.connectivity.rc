@@ -27,7 +27,15 @@ on post-fs-data
     chown bluetooth bluetooth /dev/ttyGS2
     chmod 0660 /dev/ttyGS2
 
+# FM radio (MT6631) loads DSP patch via request_firmware(NULL),
+# which uses firmware_class.path. Kernel cmdline sets /vendor/firmware,
+# but at runtime it ends up as /data/firmware, so FM fails with:
+# "Direct firmware load for mt6631_fm_v1_patch.bin failed with error -2".
+# Restore the vendor path here and on boot / connsys ready.
+    write /sys/module/firmware_class/parameters/path /vendor/firmware
+
 on boot
+    write /sys/module/firmware_class/parameters/path /vendor/firmware
 
 # WMT
 service wmt_loader /vendor/bin/wmt_loader
@@ -58,6 +66,11 @@ on property:vendor.connsys.driver.ready=yes && property:persist.vendor.connsys.c
 
 on property:vendor.connsys.driver.ready=yes && property:debug.vendor.connsys.suspend.alarm=*
     write /proc/driver/wmt_user_proc "0x2 ${debug.vendor.connsys.suspend.alarm}"
+
+# Re-assert FM firmware path when connsys (BT/FM/GPS) is ready.
+# See comment in on post-fs-data above.
+on property:vendor.connsys.driver.ready=yes
+    write /sys/module/firmware_class/parameters/path /vendor/firmware
 
 on property:persist.vendor.em.dy.debug=1
     setprop persist.vendor.connsys.coredump.mode 0
