@@ -16,6 +16,23 @@
       "message": "So, few things - this is clearly AI. Mark it as such.\n\nSecond, it appears entirely inaccurate given this is what it reads as _right now_:\n```\nQ25 / # cat /sys/module/firmware_class/parameters/path\n/vendor/firmware\n```",
       "revId": "8afaf7dfc09d9e9316f149d870e296bea9b79693",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8da067a_1fad9374",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-09-21T03:27:41Z",
+      "side": 1,
+      "message": "and on top of that, what is the reference to amlogic about?\n\nAnd why is this done 3 times? it just makes 0 sense.",
+      "revId": "8afaf7dfc09d9e9316f149d870e296bea9b79693",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
