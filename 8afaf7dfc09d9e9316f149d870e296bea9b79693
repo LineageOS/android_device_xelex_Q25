@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "064ce558_c439d666",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-09-21T03:26:42Z",
+      "side": 1,
+      "message": "So, few things - this is clearly AI. Mark it as such.\n\nSecond, it appears entirely inaccurate given this is what it reads as _right now_:\n```\nQ25 / # cat /sys/module/firmware_class/parameters/path\n/vendor/firmware\n```",
+      "revId": "8afaf7dfc09d9e9316f149d870e296bea9b79693",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
