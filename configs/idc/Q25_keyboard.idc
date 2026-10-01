@@ -22,3 +22,5 @@ keyboard.layout = Q25_keyboard
 keyboard.characterMap = Q25_keyboard
 device.internal = 1
 keyboard.builtIn = 1
+
+cursor.mode = navigation
