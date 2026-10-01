@@ -3,6 +3,15 @@ flash boot
 flash dtbo
 flash vendor_boot
 flash --apply-vbmeta vbmeta
-flash super super.img
+reboot fastboot
+update-super
+flash odm_dlkm
+flash product
+flash system
+flash system_ext
+flash vendor
+flash vendor_dlkm
+flash vbmeta_system
+flash vbmeta_vendor
 if-wipe erase userdata
 if-wipe erase metadata
