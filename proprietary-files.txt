@@ -226,8 +226,6 @@ vendor/lib64/libvow_ap_test_nn.so
 vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Bluetooth
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
