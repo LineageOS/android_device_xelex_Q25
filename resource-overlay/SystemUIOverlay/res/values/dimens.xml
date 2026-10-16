@@ -6,4 +6,8 @@
 <resources>
     <!-- Padding for the lock icon on the keyguard. In pixels - should not scale with display size. -->
     <dimen name="lock_icon_padding">22px</dimen>
+
+    <dimen name="keyguard_security_container_padding_top">0dp</dimen>
+    <dimen name="keyguard_security_view_top_margin">0dp</dimen>
+    <dimen name="keyguard_security_view_bottom_margin">28dp</dimen>
 </resources>
