@@ -753,7 +753,6 @@ vendor/lib64/hw/gps.default.so
 vendor/lib64/mt6789/libmnl.so:vendor/lib64/libmnl_mtk.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/libviagpsrpc.so
-vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 
 # Graphics
 vendor/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789:vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
@@ -1061,9 +1060,7 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 # Power
 vendor/etc/nnapi_powerhal.json
 vendor/lib/libneuroeara.so
-vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/libneuroeara.so
-vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
 # RIL
 vendor/bin/hw/mtkfusionrild
@@ -1248,8 +1245,6 @@ vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE_SUFFIX=_vendor
 
 # Radio (IMS) - from Pacman B4.1-260813-0941
